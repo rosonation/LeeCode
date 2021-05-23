@@ -37,9 +37,11 @@ class ListNode:
     def __init__(self, val):
         if isinstance(val, int):
             self.val = val
+            # 自身尾巴的next就是None
             self.next = None
         elif isinstance(val, List):
             self.val = val[0]
+            # 自身尾巴的next就是None
             self.next = None
             cur = self
             for i in val[1:]:
