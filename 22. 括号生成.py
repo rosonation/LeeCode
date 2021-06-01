@@ -40,6 +40,7 @@ class Solution:
             # 括号是成对出现的，所有是两倍
             if len(S) == 2 * n:
                 ans.append(''.join(S))
+                # 退出回溯，返回上一层
                 return
             if left < n:
                 S.append('(')
