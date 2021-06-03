@@ -60,7 +60,7 @@ class Solution:
 
 if __name__ == '__main__':
     s1: str = "aa"
-    s2: str = "a*"
+    s2: str = "a"
     instance = Solution()
     func = instance.isMatch(s1, s2)
     print(func)
