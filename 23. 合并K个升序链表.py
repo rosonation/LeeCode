@@ -43,7 +43,7 @@ from typing import List
 class ListNode:
 
     def __init__(self, val):
-        if isinstance(val, int):
+        if isinstance(val, int) or isinstance(val, str):
             self.val = val
             # 自身尾巴的next就是None
             self.next = None
@@ -56,30 +56,25 @@ class ListNode:
                 cur.next = ListNode(i)
                 cur = cur.next
 
-
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
-        length = len(lists)
-        if length == 0:
-            return None
-        if length == 1:
-            return lists[0]
-        mid = length // 2
-        return self.mergeTwoLists(self.mergeKLists(lists[:mid]), self.mergeKLists(lists[mid:]))
-
-    def mergeTwoLists(self, ln1: ListNode, ln2: ListNode) -> ListNode:
-        if ln1 is None or ln2 is None:
-            return ln1 if ln1 else ln2
-        if ln1.val <= ln2.val:
-            ln1.next = self.mergeTwoLists(ln1.next, ln2)
-            return ln1
-        else:
-            ln2.next = self.mergeTwoLists(ln2.next, ln1)
-            return ln2
+        ans = []
+        for ln in lists:
+            while ln:
+                ans.append(ln.val)
+                ln = ln.next
+        ans.sort()
+        head = ListNode(0)
+        pre = head
+        for i in ans:
+            node = ListNode(i)
+            pre.next = node
+            pre = pre.next
+        return head.next
 
 
 if __name__ == '__main__':
-    l1: ListNode = ListNode([[1, 4, 5], [1, 3, 4], [2, 6]])
+    l1: List = [ListNode([1, 4, 5]), ListNode([1, 3, 4]), ListNode([2, 6])]
     instance = Solution()
     func = instance.mergeKLists(l1)
     print(func)
