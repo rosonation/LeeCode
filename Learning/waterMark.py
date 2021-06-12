@@ -1,12 +1,12 @@
-import PyPDF2
+import PyPDF4
 
 minutesFile = open('/Users/tony/Downloads/automate_online-materials/meetingminutes.pdf', 'rb')
-pdfReader = PyPDF2.PdfFileReader(minutesFile)
+pdfReader = PyPDF4.PdfFileReader(minutesFile)
 minutesFirstPage = pdfReader.getPage(0)
 pdfFileWatermark = open('/Users/tony/Downloads/automate_online-materials/watermark.pdf', 'rb')
-pdfWatermarkReader = PyPDF2.PdfFileReader(pdfFileWatermark)
+pdfWatermarkReader = PyPDF4.PdfFileReader(pdfFileWatermark)
 minutesFirstPage.mergePage(pdfWatermarkReader.getPage(0))
-pdfWriter = PyPDF2.PdfFileWriter()
+pdfWriter = PyPDF4.PdfFileWriter()
 pdfWriter.addPage(minutesFirstPage)
 
 for pageNum in range(1, pdfReader.numPages):

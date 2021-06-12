@@ -1,8 +1,8 @@
-import PyPDF2
+import PyPDF4
 
 pdfFileObj = open('/Users/tony/Downloads/automate_online-materials/meetingminutes.pdf', 'rb')
-pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
-pdfWriter = PyPDF2.PdfFileWriter()
+pdfReader = PyPDF4.PdfFileReader(pdfFileObj)
+pdfWriter = PyPDF4.PdfFileWriter()
 
 for pageNum in range(pdfReader.numPages):
     pdfWriter.addPage(pdfReader.getPage(pageNum))

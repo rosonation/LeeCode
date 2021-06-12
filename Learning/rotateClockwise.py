@@ -1,10 +1,10 @@
-import PyPDF2
+import PyPDF4
 
 minutesFile = open('/Users/tony/Downloads/automate_online-materials/meetingminutes.pdf', 'rb')
-pdfReader = PyPDF2.PdfFileReader(minutesFile)
+pdfReader = PyPDF4.PdfFileReader(minutesFile)
 # page = pdfReader.getPage(0)
 
-pdfWriter = PyPDF2.PdfFileWriter()
+pdfWriter = PyPDF4.PdfFileWriter()
 for pageNum in range(pdfReader.numPages):
     # rotatedPage = pdfReader.getPage(pageNum).rotateClockwise(90)
     normalPage = pdfReader.getPage(pageNum)
