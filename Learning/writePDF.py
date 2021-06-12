@@ -14,9 +14,9 @@ for pageNum in range(pdf2Reader.numPages):
     pageObj = pdf2Reader.getPage(pageNum)
     pdfWriter.addPage(pageObj)
 
-pdfOutputFile = open('/Users/tony/Tony/combinedminutes.pdf', 'wb')
+pdfOutputFile = open('/Users/tony/Tony/PDF/combinedminutes.pdf', 'wb')
 pdfWriter.write(pdfOutputFile)
-print("Write to file:", '/Users/tony/Tony/combinedminutes.pdf')
+print("Write to file:", '/Users/tony/Tony/PDF/combinedminutes.pdf')
 pdf1File.close()
 pdf2File.close()
 pdfOutputFile.close()
