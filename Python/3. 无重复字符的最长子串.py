@@ -41,7 +41,7 @@ class Solution:
         for i in range(n):
             if i != 0:
                 # 左指针向右移动一格， 移除一格字符
-                occ.remove(s[i-1])
+                occ.remove(s[i - 1])
             while rk + 1 < n and s[rk + 1] not in occ:
                 # 不断移动右指针向左
                 occ.add(s[rk + 1])
