@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Java">
+    <CLASSES>
+      <root url="file:///Library/Java" />
+      <root url="file:///Library/Java/JavaVirtualMachines" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file:///Library/Java/JavaVirtualMachines" />
+    </SOURCES>
+  </library>
+</component>

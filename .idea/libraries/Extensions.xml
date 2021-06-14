@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Extensions">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file:///Library/Java/Extensions" />
+    </SOURCES>
+  </library>
+</component>
