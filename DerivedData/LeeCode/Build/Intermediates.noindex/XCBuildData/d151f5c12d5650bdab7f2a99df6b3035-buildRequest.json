@@ -1,0 +1,52 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "0abfcdf32a84631794b3c57d0a579862a2565ec009bd82d000e577cdf378297f"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/tony/Documents/Porject/LeeCode/DerivedData/LeeCode/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/tony/Documents/Porject/LeeCode/DerivedData/LeeCode/Build/Products",
+      "derivedDataPath" : "/Users/tony/Documents/Porject/LeeCode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/tony/Documents/Porject/LeeCode/DerivedData/LeeCode/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/tony/Documents/Porject/LeeCode/DerivedData/LeeCode/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/tony/Documents/Porject/LeeCode/DerivedData/LeeCode/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
