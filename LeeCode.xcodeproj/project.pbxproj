@@ -25,7 +25,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EA3714FB2676A65A00E5B0F9 /* LeeCode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LeeCode; sourceTree = "<group>"; };
 		EA3715062677A9D600E5B0F9 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3715152677ACC800E5B0F9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EA3715162677ACC800E5B0F9 /* main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
@@ -33,6 +32,7 @@
 		EA3715192677B17300E5B0F9 /* 1.twoSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 1.twoSum.hpp; sourceTree = "<group>"; };
 		EA8598B02677CB80009EEF88 /* 2.addTwoNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2.addTwoNumbers.cpp; sourceTree = "<group>"; };
 		EA8598B12677CB80009EEF88 /* 2.addTwoNumbers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = 2.addTwoNumbers.hpp; sourceTree = "<group>"; };
+		EAF147ED2678C7FD009075B1 /* LeeCode */ = {isa = PBXFileReference; lastKnownFileType = folder; name = LeeCode; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		EABCD743267693FA00B7F696 = {
 			isa = PBXGroup;
 			children = (
-				EA3714FB2676A65A00E5B0F9 /* LeeCode */,
+				EAF147ED2678C7FD009075B1 /* LeeCode */,
 				EA3715082677A9D600E5B0F9 /* C++ */,
 				EA3715072677A9D600E5B0F9 /* Products */,
 			);
