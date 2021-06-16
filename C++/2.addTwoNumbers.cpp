@@ -1,5 +1,5 @@
 //
-//  2.cpp
+//  2.addTwoNumbers.cpp
 //  test
 //
 //  Created by Tony on 2021/6/15.
@@ -39,22 +39,87 @@
 #include "2.addTwoNumbers.hpp"
 #include <iostream>
 #include <nlist.h>
-#include <ListNode>
 using namespace::std;
+
+//定义结构体
+struct ListNode {
+    int val;
+    ListNode *next;
+    //ListNode() : val(0), next(nullptr) {}
+    //ListNode(int x) : val(x), next(nullptr) {}
+    //ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
 
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode *head = nullptr, *tail = nullptr;
-        
+        ListNode *newNode = new ListNode();
+        int carry = 0;
+        while (l1 || l2) {
+        int n1 = l1 ? l1->val : 0;
+        int n2 = l2 ? l2->val : 0;
+        int sum = n1 + n2 + carry;
+        int total = sum % 10;
+        addListNode(newNode, total);
+        cout << "Total is :" << total << endl;
+        if (l1) {
+            l1 = l1->next;
+        }
+        if (l2) {
+            l2 = l2->next;
+        }
+        carry = sum / 10;
+        }
+        if (carry > 0) {
+            newNode->next = addListNode(newNode, carry );
+        }
+        return newNode->next;
+    }
+public:
+    ListNode* addListNode(ListNode *pHead, int value) {
+        ListNode *pNew = new ListNode(); // 将int的值储存为链表
+        pNew->next = nullptr;
+        pNew->val = value;
+        if (pHead == nullptr) {
+            pNew = pHead; //如果是空链表相加，那么新链表就是上面将int转化的链表
+        }
+        else {
+            ListNode *pCopy = pHead; // 拷贝一份链表，作为循环条件
+            while (pCopy->next != nullptr) {
+                pCopy = pCopy->next; // 指针移动
+            }
+            pCopy->next = pNew; // 最后指针要指向将int转化的链表，整个pHead链表就移动完了
+        }
+        return pHead; // 不能返回pCopy，因为它的链表指针移动完了，变成了空
+    }
+public:
+    static ListNode* print(ListNode *printNode) {
+        ListNode *p = printNode->next; // ListNode的头为0不要
+        while (p != nullptr) {
+            cout << p->val << " -> ";
+            p = p->next; // 移动指针
+        }
+        cout << endl;
+        return p;
     }
 };
 
 int main(int argc, char *argv[]) {
     Solution so;
-    int b[4] = {2, 7, 11, 15};
-    vector<int> a(b,b+4);
-    int target = 9;
-    so.twoSum(a, target);
+    ListNode *ln1 = new ListNode();
+    ListNode *ln2 = new ListNode();
+    so.addListNode(ln1,9);
+    so.addListNode(ln1,9);
+    so.addListNode(ln1,9);
+    so.addListNode(ln1,9);
+    so.addListNode(ln1,9);
+    so.addListNode(ln1,9);
+    so.addListNode(ln1,9);
+    so.addListNode(ln2,9);
+    so.addListNode(ln2,9);
+    so.addListNode(ln2,9);
+    so.addListNode(ln2,9);
+    so.addTwoNumbers(ln1, ln2);
+    so.print(so.addTwoNumbers(ln1, ln2));
     printf("Done.\n");
 }

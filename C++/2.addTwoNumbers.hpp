@@ -1,12 +1,12 @@
 //
-//  2.hpp
+//  2.addTwoNumbers.hpp
 //  test
 //
 //  Created by Tony on 2021/6/15.
 //
 
-#ifndef __hpp
-#define __hpp
+#ifndef addTwoNumber_hpp
+#define addTwoNumber_hpp
 
 #include <stdio.h>
 
