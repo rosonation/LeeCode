@@ -1,5 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="java-test" type="Application" factoryName="Application">
+  <configuration default="false" name="java-test" type="Application" factoryName="Application" activateToolWindowBeforeRun="false">
+    <module name="maven_modules" />
     <target name="2" />
     <method v="2" />
   </configuration>
