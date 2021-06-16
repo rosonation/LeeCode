@@ -44,10 +44,10 @@ class Solution {
         }
         return new int[0];
     }
-//    public void main(int[] args, int arg)
-//    {
-//        System.out.println(args[0]);
-//        System.out.println(args[1]);
-//        twoSum(args[0], args[1]);
-//    }
+    public void main(int[] args, int arg)
+    {
+        System.out.println(args[0]);
+        System.out.println(args[1]);
+        twoSum(args[0], args[1]);
+    }
 }
