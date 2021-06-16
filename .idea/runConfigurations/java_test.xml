@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="java-test" type="Application" factoryName="Application">
+    <target name="2" />
+    <method v="2" />
+  </configuration>
+</component>

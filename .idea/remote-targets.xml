@@ -20,6 +20,48 @@
           </config>
         </ContributedStateBase>
       </target>
+      <target name="2" type="docker">
+        <config>
+          <option name="targetPlatform">
+            <TargetPlatform />
+          </option>
+          <option name="buildImageConfig">
+            <BuildImageConfig>
+              <option name="dockerFile" value="Docker" />
+            </BuildImageConfig>
+          </option>
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="agentFolder">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+            <option name="classpathFolder">
+              <VolumeState>
+                <option name="targetSpecificBits">
+                  <map>
+                    <entry key="mountAsVolume" value="false" />
+                  </map>
+                </option>
+              </VolumeState>
+            </option>
+            <option name="homePath" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home" />
+            <option name="javaVersionString" value="1.8" />
+          </config>
+        </ContributedStateBase>
+        <ContributedStateBase type="MavenRuntime">
+          <config>
+            <option name="homePath" value="$USER_HOME$/Downloads/apache-maven-3.8.1" />
+            <option name="versionString" value="3.8" />
+          </config>
+        </ContributedStateBase>
+      </target>
     </targets>
   </component>
 </project>

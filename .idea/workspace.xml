@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9501a6b1-2ec6-4e2a-ad0e-8dfb14238a40" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/java/src/1.twoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/1.twoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/2.addTwoNumbers" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/2.addTwoNumbers" afterDir="false" />
+    <list default="true" id="9501a6b1-2ec6-4e2a-ad0e-8dfb14238a40" name="默认变更列表" comment="add dockerfile.">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/java_test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/remote-targets.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/remote-targets.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,15 +32,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="java-test" type="Application" factoryName="Application">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -62,7 +65,7 @@
       <workItem from="1623772832187" duration="4186000" />
       <workItem from="1623858600865" duration="78000" />
       <workItem from="1623858852520" duration="120000" />
-      <workItem from="1623866181336" duration="3409000" />
+      <workItem from="1623866181336" duration="4052000" />
     </task>
     <task id="LOCAL-00001" summary="delete">
       <created>1623856274543</created>
@@ -85,7 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623859599586</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add dockerfile.">
+      <created>1623870767690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623870767690</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add dockerfile.">
+      <created>1623870774931</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623870774931</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete" />
+    <MESSAGE value="add dockerfile." />
+    <option name="LAST_COMMIT_MESSAGE" value="add dockerfile." />
   </component>
 </project>
