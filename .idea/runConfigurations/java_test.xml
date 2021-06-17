@@ -1,5 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="java-test" type="Application" factoryName="Application" activateToolWindowBeforeRun="false">
+    <option name="MAIN_CLASS_NAME" value="com.javafx.main.Main" />
     <module name="maven_modules" />
     <target name="2" />
     <method v="2" />
