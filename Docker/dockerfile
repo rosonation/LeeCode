@@ -1,0 +1,22 @@
+# CentOS with JDK 8
+# Author   dockerzlnewbie
+
+# build a new image with basic  centos
+FROM centos
+# who is the author
+MAINTAINER TonyLaw
+
+# make a new directory to store the jdk files
+#RUN mkdir /opt/local/java
+
+# copy the jdk  archive to the image,and it will automaticlly unzip the tar file
+ADD jdk-16.0.1_osx-x64_bin.tar /opt/local/java/
+
+# make a symbol link
+RUN ln -s /opt/local/java/jdk-16.0.1 /opt/local/java/jdk
+
+# set environment variables
+ENV JAVA_HOME /opt/local/java/jdk
+ENV JRE_HOME ${JAVA_HOME}/jre
+ENV CLASSPATH .:${JAVA_HOME}/lib:${JRE_HOME}/lib
+ENV PATH ${JAVA_HOME}/bin:$PATH
