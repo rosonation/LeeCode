@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8871a237-be34-4508-97d0-0b285a78548d" name="Default Changelist" comment="intelij add java source">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="8871a237-be34-4508-97d0-0b285a78548d" name="Default Changelist" comment="intelij add java source" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623939244321</updated>
       <workItem from="1623939245600" duration="354000" />
-      <workItem from="1624202452786" duration="1522000" />
+      <workItem from="1624202452786" duration="1828000" />
     </task>
     <task id="LOCAL-00001" summary="intelij add java source">
       <created>1623939311485</created>
@@ -172,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624200921487</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="intelij add java source">
+      <created>1624205570698</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1624205570698</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
