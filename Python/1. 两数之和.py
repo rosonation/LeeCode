@@ -36,7 +36,7 @@ from typing import List
 
 class Solution:
     @staticmethod
-    def twoSum(nums: List[int], target: int) -> List[int]:
+    def twosum_1(nums: List[int], target: int) -> List[int]:
         hashtable = dict()
         for i, num in enumerate(nums):
             if target - num in hashtable:
@@ -48,5 +48,5 @@ if __name__ == '__main__':
     l1: List = [2, 7, 11, 15]
     int1: int = 9
     test = Solution()
-    func = test.twoSum(l1, int1)
+    func = test.twosum_1(l1, int1)
     print(func)
