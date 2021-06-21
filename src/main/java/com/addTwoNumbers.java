@@ -39,37 +39,30 @@ class Solution1 {
         }
         return head;
     }
-    public static ListNode addListNode(ListNode l4, int value) {
-            ListNode pNew = new ListNode();
-            pNew.next = null;
-            pNew.val = value;
-            if (l4 == null) {
-                pNew = l4;
-            }
-            else {
-                ListNode copy = l4;
-                while (copy.next != null) {
-                    copy = copy.next;
-                }
-                copy.next = pNew;
-            }
-            return l4;
+    public static void addListNode(ListNode l4, int value) {
+        ListNode pNew = new ListNode();
+        pNew.next = null;
+        pNew.val = value;
+        ListNode copy = l4;
+        while (copy.next != null) {
+            copy = copy.next;
+        }
+        copy.next = pNew;
     }
-    public static ListNode listprint(ListNode l3) {
+    public static void listPrint(ListNode l3) {
         ListNode p = l3;
         while (p != null) {
             System.out.print(p.val + " -> ");
             p = p.next;
         }
-        return p;
     }
     public static void main(String[] args) {
         ListNode l1 = new ListNode(2);
         Solution1.addListNode(l1, 4);
         Solution1.addListNode(l1, 3);
         ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
-//        listprint(l1);
+        listPrint(l1);
         Solution1.addTwoNumbers(l1, l2);
-        listprint(Solution1.addTwoNumbers(l1, l2));
+        listPrint(Solution1.addTwoNumbers(l1, l2));
     }
 }
