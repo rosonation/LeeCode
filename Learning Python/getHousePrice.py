@@ -1,7 +1,7 @@
 from fake_useragent import UserAgent
-import csv
-import re
 import time
+import re
+import csv
 from parsel import Selector
 import httpx
 import asyncio
@@ -17,6 +17,7 @@ class HomeLinkSpider(object):
 
     def get_max_page(self):
         response = httpx.get(self.url, headers=self.headers)
+        print("response---------------", response.status_code)
         if response.status_code == 200:
             # 创建Selector类实例
             selector = Selector(response.text)
