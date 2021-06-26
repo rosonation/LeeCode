@@ -28,8 +28,8 @@ def downloadXkcd(startComic, endComic):
         else:
             comicUrl = comicElem[0].get('src')
             # Download the image.
-            print('Downloading image %s...' % comicUrl)
-            res = requests.get('http:' + comicUrl)
+            print('Downloading image https://%s...' % comicUrl)
+            res = requests.get('https:' + comicUrl)
             if res.status_code != 200:
                 sys.exit(res.status_code)
             # print('image status_code: ', res.status_code)
@@ -48,3 +48,8 @@ for i in range(0, 1400, 100):  # loops 14 times, creates 14 threads
     downloadThread = threading.Thread(target=downloadXkcd, args=(i, i + 99))
     downloadThreads.append(downloadThread)
     downloadThread.start()
+
+# Wait for all threads to end.
+for downloadThread in downloadThreads:
+    downloadThread.join()
+print('Done.')
