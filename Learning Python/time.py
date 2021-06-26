@@ -17,16 +17,16 @@ import datetime
 # %S                    秒，'00'至'59'
 # %p                    'AM'或'PM'
 # %%                    就是'%'字符
-oct21st = datetime.datetime(2021, 6, 26, 13, 56 , 0)
+oct21st = datetime.datetime(2021, 6, 26, 13, 56, 0)
 print('年月日 时分秒: ', oct21st.strftime("%Y-%m-%d %H:%M:%S"))
 print('12小时制时分秒: ', oct21st.strftime("%I:%M:%S %p"))
 print('完成的月份和不带世纪的年: ', oct21st.strftime("%B of '%y"))
 print('今天是一年中的第 ', oct21st.strftime('%j'), ' 天')
 print('今年还剩下 ', 365 - int(oct21st.strftime('%j')), ' 天')
 print('今天是一周中的第 ', oct21st.strftime('%w'), ' 天')
-octDateTime = datetime.datetime.fromtimestamp(time.time())
+octDateTime = datetime.datetime.fromtimestamp(time.time)
 print('今天是: ', octDateTime)
-startTime = time.time()
+startTime = time.time
 print('startTime: ', startTime)
 print(datetime.datetime.strptime('June 26, 2021', '%B %d, %Y'))
 print(datetime.datetime.strptime('2021/06/26 14:59:00', '%Y/%m/%d %H:%M:%S'))
