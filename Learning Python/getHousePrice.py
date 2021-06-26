@@ -1,5 +1,5 @@
 from fake_useragent import UserAgent
-import time
+import dateTime
 import re
 import csv
 from parsel import Selector
@@ -119,9 +119,9 @@ class HomeLinkSpider(object):
 
 
 if __name__ == '__main__':
-    start = time.time()
+    start = dateTime.dateTime()
     home_link_spider = HomeLinkSpider()
     home_link_spider.parse_page()
     home_link_spider.write_csv_file()
-    end = time.time()
+    end = dateTime.dateTime()
     print("耗时：{}秒".format(end - start))
