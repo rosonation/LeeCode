@@ -14,7 +14,7 @@ while not url.endswith('#'):
     soup = bs4.BeautifulSoup(res.text, features="html.parser")
     # Find the URL of the comic image.
     comicElem = soup.select('#comic img')
-    if comicElem == []:
+    if not comicElem:
         print("Cound not find comic image.")
     else:
         comicUrl = 'https:' + comicElem[0].get('src')
