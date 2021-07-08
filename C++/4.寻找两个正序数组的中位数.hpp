@@ -10,4 +10,4 @@
 
 #include <stdio.h>
 
-#endif /* getKthElement.hpp */
+#endif /* getKthElement_hpp */
