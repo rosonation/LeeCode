@@ -13,5 +13,4 @@ CMakeFiles/LeeCode.dir/C++/3.无重复字符的最长子串.cpp.o: \
 CMakeFiles/LeeCode.dir/C++/4.寻找两个正序数组的中位数.cpp.o: \
  ../C++/4.寻找两个正序数组的中位数.cpp
 CMakeFiles/LeeCode.dir/C++/最长回文子串.cpp.o: \
- ../C++/最长回文子串.cpp \
- ../C++/最长回文子串.h
+ ../C++/最长回文子串.cpp

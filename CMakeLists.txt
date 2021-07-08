@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.20)
 project(LeeCode)
 
 set(CMAKE_CXX_STANDARD 14)
-set(SOURCE_FILE 最长回文子串.cpp)
+set(SOURCE_FILE 最长回文子串.cpp 最长回文子串.h)
 include_directories(C++)
 
 add_executable(LeeCode

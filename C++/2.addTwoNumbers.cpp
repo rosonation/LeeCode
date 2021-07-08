@@ -108,22 +108,22 @@ public:
     }
 };
 
-int main(int argc, char *argv[]) {
-    Solution so;
-    ListNode *ln1 = new ListNode();
-    ListNode *ln2 = new ListNode();
-    so.addListNode(ln1,9);
-    so.addListNode(ln1,9);
-    so.addListNode(ln1,9);
-    so.addListNode(ln1,9);
-    so.addListNode(ln1,9);
-    so.addListNode(ln1,9);
-    so.addListNode(ln1,9);
-    so.addListNode(ln2,9);
-    so.addListNode(ln2,9);
-    so.addListNode(ln2,9);
-    so.addListNode(ln2,9);
-    so.addTwoNumbers(ln1, ln2);
-    so.print(so.addTwoNumbers(ln1, ln2));
-    printf("Done.\n");
-}
+//int main(int argc, char *argv[]) {
+//    Solution so;
+//    ListNode *ln1 = new ListNode();
+//    ListNode *ln2 = new ListNode();
+//    so.addListNode(ln1,9);
+//    so.addListNode(ln1,9);
+//    so.addListNode(ln1,9);
+//    so.addListNode(ln1,9);
+//    so.addListNode(ln1,9);
+//    so.addListNode(ln1,9);
+//    so.addListNode(ln1,9);
+//    so.addListNode(ln2,9);
+//    so.addListNode(ln2,9);
+//    so.addListNode(ln2,9);
+//    so.addListNode(ln2,9);
+//    so.addTwoNumbers(ln1, ln2);
+//    so.print(so.addTwoNumbers(ln1, ln2));
+//    printf("Done.\n");
+//}

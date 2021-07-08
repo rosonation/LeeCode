@@ -63,9 +63,9 @@ public:
     }
 };
 
-int main (int argc, char * argv[]) {
-    string s1 = "abcabcbb";
-    Solution so;
-    so.lengthOfLongestSubstring(s1);
-    cout << so.lengthOfLongestSubstring(s1) << endl;
-}
+//int main (int argc, char * argv[]) {
+//    string s1 = "abcabcbb";
+//    Solution so;
+//    so.lengthOfLongestSubstring(s1);
+//    cout << so.lengthOfLongestSubstring(s1) << endl;
+//}

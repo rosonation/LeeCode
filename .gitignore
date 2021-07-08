@@ -9,3 +9,5 @@ venv/
 target/
 #----------Xcode----------
 .DS_Store
+#----------Clion----------
+cmake-build-debug/
