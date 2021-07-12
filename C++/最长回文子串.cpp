@@ -85,7 +85,7 @@ public:
 };
 
 int main (int argc, char * args[]) {
-    string s1 = "abad";
+    string s1 = "babad";
     Solution so;
     so.longestPalindrome(s1);
     cout << so.longestPalindrome(s1) << endl;
