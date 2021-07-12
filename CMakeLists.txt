@@ -3,7 +3,7 @@ project(LeeCode)
 
 set(CMAKE_CXX_STANDARD 14)
 set(SOURCE_FILES 最长回文子串.cpp 最长回文子串.h)
-include_directories(C++)
+include_directories(C++/)
 
 add_executable(LeeCode
         C++/1.twoSum.cpp
