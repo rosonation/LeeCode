@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.20)
 project(LeeCode)
 
 set(CMAKE_CXX_STANDARD 14)
-set(SOURCE_FILES C++/最长回文子串.cpp C++/最长回文子串.h)
-include_directories(LeeCode/C++)
 
 add_executable(LeeCode
         C++/1.twoSum.cpp
@@ -16,4 +14,4 @@ add_executable(LeeCode
         C++/4.寻找两个正序数组的中位数.hpp
         C++/最长回文子串.cpp
         C++/最长回文子串.h
-        )
+        C++/Z字形变换.cpp C++/Z字形变换.h)

@@ -36,9 +36,7 @@
  题目数据保证列表表示的数字不含前导零
 
 */
-#include "2.addTwoNumbers.hpp"
 #include <iostream>
-#include <nlist.h>
 using namespace::std;
 
 //定义结构体

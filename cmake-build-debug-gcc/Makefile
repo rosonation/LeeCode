@@ -225,6 +225,30 @@ C++/4.寻找两个正序数组的中位数.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/C++/4.寻找两个正序数组的中位数.cpp.s
 .PHONY : C++/4.寻找两个正序数组的中位数.cpp.s
 
+C++/Z字形变换.o: C++/Z字形变换.cpp.o
+.PHONY : C++/Z字形变换.o
+
+# target to build an object file
+C++/Z字形变换.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/C++/Z字形变换.cpp.o
+.PHONY : C++/Z字形变换.cpp.o
+
+C++/Z字形变换.i: C++/Z字形变换.cpp.i
+.PHONY : C++/Z字形变换.i
+
+# target to preprocess a source file
+C++/Z字形变换.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/C++/Z字形变换.cpp.i
+.PHONY : C++/Z字形变换.cpp.i
+
+C++/Z字形变换.s: C++/Z字形变换.cpp.s
+.PHONY : C++/Z字形变换.s
+
+# target to generate assembly for a file
+C++/Z字形变换.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/C++/Z字形变换.cpp.s
+.PHONY : C++/Z字形变换.cpp.s
+
 C++/最长回文子串.o: C++/最长回文子串.cpp.o
 .PHONY : C++/最长回文子串.o
 
@@ -270,6 +294,9 @@ help:
 	@echo "... C++/4.寻找两个正序数组的中位数.o"
 	@echo "... C++/4.寻找两个正序数组的中位数.i"
 	@echo "... C++/4.寻找两个正序数组的中位数.s"
+	@echo "... C++/Z字形变换.o"
+	@echo "... C++/Z字形变换.i"
+	@echo "... C++/Z字形变换.s"
 	@echo "... C++/最长回文子串.o"
 	@echo "... C++/最长回文子串.i"
 	@echo "... C++/最长回文子串.s"

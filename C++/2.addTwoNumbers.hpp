@@ -10,4 +10,4 @@
 
 #include <stdio.h>
 
-#endif /* addTwoNumber.hpp */
+#endif /* addTwoNumber_hpp */

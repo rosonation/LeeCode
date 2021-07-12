@@ -44,7 +44,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/tony/Documents/Project/LeeCode/LeeCode/C++"/>
 					<Add directory="/Users/tony/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/Users/tony/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
 					<Add directory="/Users/tony/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -65,7 +64,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/tony/Documents/Project/LeeCode/LeeCode/C++"/>
 					<Add directory="/Users/tony/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 					<Add directory="/Users/tony/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
 					<Add directory="/Users/tony/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -102,6 +100,12 @@
 			<Option target="LeeCode"/>
 		</Unit>
 		<Unit filename="/Users/tony/Documents/Project/LeeCode/C++/4.寻找两个正序数组的中位数.hpp">
+			<Option target="LeeCode"/>
+		</Unit>
+		<Unit filename="/Users/tony/Documents/Project/LeeCode/C++/Z字形变换.cpp">
+			<Option target="LeeCode"/>
+		</Unit>
+		<Unit filename="/Users/tony/Documents/Project/LeeCode/C++/Z字形变换.h">
 			<Option target="LeeCode"/>
 		</Unit>
 		<Unit filename="/Users/tony/Documents/Project/LeeCode/C++/最长回文子串.cpp">
