@@ -10,4 +10,4 @@
 
 #include <stdio.h>
 
-#endif /* __twoSum_hpp */
+#endif /* twoSum_hpp */
