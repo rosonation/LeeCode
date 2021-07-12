@@ -63,13 +63,13 @@ public:
     }
 };
 
-int main (int argc, char * args[]) {
-    int i1[] = {1, 3};
-    vector<int> v1(i1, i1 + 2);
-    int i2[] = {2,};
-    vector<int> v2(i2, i2 + 1);
-    Solution so;
-    so.findMedianSortedArrays(v1, v2);
-    cout << so.findMedianSortedArrays(v1, v2) << endl;
-}
+//int main (int argc, char * args[]) {
+//    int i1[] = {1, 3};
+//    vector<int> v1(i1, i1 + 2);
+//    int i2[] = {2,};
+//    vector<int> v2(i2, i2 + 1);
+//    Solution so;
+//    so.findMedianSortedArrays(v1, v2);
+//    cout << so.findMedianSortedArrays(v1, v2) << endl;
+//}
 
