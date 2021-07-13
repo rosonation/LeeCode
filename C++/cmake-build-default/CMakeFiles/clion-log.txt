@@ -1,1 +1,4 @@
-CMakeLists.txt not found in /Users/tony/Documents/Project/LeeCode/C++ Select CMakeLists.txt
+"/Applications/CLion 2021.2 EAP.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/tony/Documents/Project/LeeCode/C++
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/tony/Documents/Project/LeeCode/C++/cmake-build-default

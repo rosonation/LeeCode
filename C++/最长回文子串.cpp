@@ -84,9 +84,9 @@ public:
     }
 };
 
-int main (int argc, char * args[]) {
-    string s1 = "babad";
-    Solution4 so;
-    so.longestPalindrome(s1);
-    cout << so.longestPalindrome(s1) << endl;
-}
+//int main (int argc, char * args[]) {
+//    string s1 = "babad";
+//    Solution4 so;
+//    so.longestPalindrome(s1);
+//    cout << so.longestPalindrome(s1) << endl;
+//}

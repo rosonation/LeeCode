@@ -153,6 +153,126 @@ LeeCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/1.twoSum.cpp.s
 .PHONY : 1.twoSum.cpp.s
 
+2.addTwoNumbers.o: 2.addTwoNumbers.cpp.o
+.PHONY : 2.addTwoNumbers.o
+
+# target to build an object file
+2.addTwoNumbers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/2.addTwoNumbers.cpp.o
+.PHONY : 2.addTwoNumbers.cpp.o
+
+2.addTwoNumbers.i: 2.addTwoNumbers.cpp.i
+.PHONY : 2.addTwoNumbers.i
+
+# target to preprocess a source file
+2.addTwoNumbers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/2.addTwoNumbers.cpp.i
+.PHONY : 2.addTwoNumbers.cpp.i
+
+2.addTwoNumbers.s: 2.addTwoNumbers.cpp.s
+.PHONY : 2.addTwoNumbers.s
+
+# target to generate assembly for a file
+2.addTwoNumbers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/2.addTwoNumbers.cpp.s
+.PHONY : 2.addTwoNumbers.cpp.s
+
+3.无重复字符的最长子串.o: 3.无重复字符的最长子串.cpp.o
+.PHONY : 3.无重复字符的最长子串.o
+
+# target to build an object file
+3.无重复字符的最长子串.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/3.无重复字符的最长子串.cpp.o
+.PHONY : 3.无重复字符的最长子串.cpp.o
+
+3.无重复字符的最长子串.i: 3.无重复字符的最长子串.cpp.i
+.PHONY : 3.无重复字符的最长子串.i
+
+# target to preprocess a source file
+3.无重复字符的最长子串.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/3.无重复字符的最长子串.cpp.i
+.PHONY : 3.无重复字符的最长子串.cpp.i
+
+3.无重复字符的最长子串.s: 3.无重复字符的最长子串.cpp.s
+.PHONY : 3.无重复字符的最长子串.s
+
+# target to generate assembly for a file
+3.无重复字符的最长子串.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/3.无重复字符的最长子串.cpp.s
+.PHONY : 3.无重复字符的最长子串.cpp.s
+
+4.寻找两个正序数组的中位数.o: 4.寻找两个正序数组的中位数.cpp.o
+.PHONY : 4.寻找两个正序数组的中位数.o
+
+# target to build an object file
+4.寻找两个正序数组的中位数.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/4.寻找两个正序数组的中位数.cpp.o
+.PHONY : 4.寻找两个正序数组的中位数.cpp.o
+
+4.寻找两个正序数组的中位数.i: 4.寻找两个正序数组的中位数.cpp.i
+.PHONY : 4.寻找两个正序数组的中位数.i
+
+# target to preprocess a source file
+4.寻找两个正序数组的中位数.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/4.寻找两个正序数组的中位数.cpp.i
+.PHONY : 4.寻找两个正序数组的中位数.cpp.i
+
+4.寻找两个正序数组的中位数.s: 4.寻找两个正序数组的中位数.cpp.s
+.PHONY : 4.寻找两个正序数组的中位数.s
+
+# target to generate assembly for a file
+4.寻找两个正序数组的中位数.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/4.寻找两个正序数组的中位数.cpp.s
+.PHONY : 4.寻找两个正序数组的中位数.cpp.s
+
+Z字形变换.o: Z字形变换.cpp.o
+.PHONY : Z字形变换.o
+
+# target to build an object file
+Z字形变换.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/Z字形变换.cpp.o
+.PHONY : Z字形变换.cpp.o
+
+Z字形变换.i: Z字形变换.cpp.i
+.PHONY : Z字形变换.i
+
+# target to preprocess a source file
+Z字形变换.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/Z字形变换.cpp.i
+.PHONY : Z字形变换.cpp.i
+
+Z字形变换.s: Z字形变换.cpp.s
+.PHONY : Z字形变换.s
+
+# target to generate assembly for a file
+Z字形变换.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/Z字形变换.cpp.s
+.PHONY : Z字形变换.cpp.s
+
+最长回文子串.o: 最长回文子串.cpp.o
+.PHONY : 最长回文子串.o
+
+# target to build an object file
+最长回文子串.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/最长回文子串.cpp.o
+.PHONY : 最长回文子串.cpp.o
+
+最长回文子串.i: 最长回文子串.cpp.i
+.PHONY : 最长回文子串.i
+
+# target to preprocess a source file
+最长回文子串.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/最长回文子串.cpp.i
+.PHONY : 最长回文子串.cpp.i
+
+最长回文子串.s: 最长回文子串.cpp.s
+.PHONY : 最长回文子串.s
+
+# target to generate assembly for a file
+最长回文子串.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/最长回文子串.cpp.s
+.PHONY : 最长回文子串.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +285,21 @@ help:
 	@echo "... 1.twoSum.o"
 	@echo "... 1.twoSum.i"
 	@echo "... 1.twoSum.s"
+	@echo "... 2.addTwoNumbers.o"
+	@echo "... 2.addTwoNumbers.i"
+	@echo "... 2.addTwoNumbers.s"
+	@echo "... 3.无重复字符的最长子串.o"
+	@echo "... 3.无重复字符的最长子串.i"
+	@echo "... 3.无重复字符的最长子串.s"
+	@echo "... 4.寻找两个正序数组的中位数.o"
+	@echo "... 4.寻找两个正序数组的中位数.i"
+	@echo "... 4.寻找两个正序数组的中位数.s"
+	@echo "... Z字形变换.o"
+	@echo "... Z字形变换.i"
+	@echo "... Z字形变换.s"
+	@echo "... 最长回文子串.o"
+	@echo "... 最长回文子串.i"
+	@echo "... 最长回文子串.s"
 .PHONY : help
 
 
