@@ -20,10 +20,10 @@ class Solution5 {
             if (curRow == 0 || curRow == numRows - 1) goingDown = !goingDown;
             curRow += goingDown ? 1 : -1;
         }
-        return rows.toString();  // 是个List<StringBuilder> [PAHN, APLSIIG, YIR]
-//        StringBuilder ret = new StringBuilder();
-//        for (StringBuilder row : rows) ret.append(row);
-//        return ret.toString();
+        // return rows.toString();  // 是个List<StringBuilder> [PAHN, APLSIIG, YIR]
+        StringBuilder ret = new StringBuilder();
+        for (StringBuilder row : rows) ret.append(row);
+        return ret.toString();
     }
 
     public static void main(String[] args) {
