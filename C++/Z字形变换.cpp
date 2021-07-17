@@ -68,10 +68,11 @@ public:
     }
 };
 
-//int main(int argc, char *args[]) {
-//    string s1 = "PAYPALISHIRING";
-//    int n1 = 3;
-//    Solution5 so;
-//    so.convert(s1, n1);
-//    cout << so.convert(s1, n1) << endl;
-//}
+int main(int argc, char *args[]) {
+    string s1 = "PAYPALISHIRING";
+    int n1 = 3;
+    Solution5 so;
+    so.convert(s1, n1);
+    cout << so.convert(s1, n1) << endl;
+    cout << "hello world" << endl;
+}
