@@ -6,6 +6,7 @@
 //
 
 #include <vector>
+#include <iostream>
 using namespace::std;
 
 class Solution {
@@ -71,4 +72,4 @@ public:
 //    so.findMedianSortedArrays(v1, v2);
 //    cout << so.findMedianSortedArrays(v1, v2) << endl;
 //}
-
+//

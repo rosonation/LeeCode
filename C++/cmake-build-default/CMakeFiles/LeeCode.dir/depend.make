@@ -9,7 +9,7 @@ CMakeFiles/LeeCode.dir/3.无重复字符的最长子串.cpp.o: \
  ../3.无重复字符的最长子串.cpp
 CMakeFiles/LeeCode.dir/4.寻找两个正序数组的中位数.cpp.o: \
  ../4.寻找两个正序数组的中位数.cpp
-CMakeFiles/LeeCode.dir/Z字形变换.cpp.o: \
- ../Z字形变换.cpp
+CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.o: \
+ ../ZigZagConversion.cpp
 CMakeFiles/LeeCode.dir/最长回文子串.cpp.o: \
  ../最长回文子串.cpp

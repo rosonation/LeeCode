@@ -12,7 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
         "/Users/tony/Documents/Project/LeeCode/C++/2.addTwoNumbers.cpp" "/Users/tony/Documents/Project/LeeCode/C++/cmake-build-default/CMakeFiles/LeeCode.dir/2.addTwoNumbers.cpp.o"
         "/Users/tony/Documents/Project/LeeCode/C++/3.无重复字符的最长子串.cpp" "/Users/tony/Documents/Project/LeeCode/C++/cmake-build-default/CMakeFiles/LeeCode.dir/3.无重复字符的最长子串.cpp.o"
         "/Users/tony/Documents/Project/LeeCode/C++/4.寻找两个正序数组的中位数.cpp" "/Users/tony/Documents/Project/LeeCode/C++/cmake-build-default/CMakeFiles/LeeCode.dir/4.寻找两个正序数组的中位数.cpp.o"
-        "/Users/tony/Documents/Project/LeeCode/C++/Z字形变换.cpp" "/Users/tony/Documents/Project/LeeCode/C++/cmake-build-default/CMakeFiles/LeeCode.dir/Z字形变换.cpp.o"
+        "/Users/tony/Documents/Project/LeeCode/C++/ZigZagConversion.cpp" "/Users/tony/Documents/Project/LeeCode/C++/cmake-build-default/CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.o"
         "/Users/tony/Documents/Project/LeeCode/C++/最长回文子串.cpp" "/Users/tony/Documents/Project/LeeCode/C++/cmake-build-default/CMakeFiles/LeeCode.dir/最长回文子串.cpp.o"
         )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

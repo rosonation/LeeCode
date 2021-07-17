@@ -225,29 +225,29 @@ LeeCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/4.寻找两个正序数组的中位数.cpp.s
 .PHONY : 4.寻找两个正序数组的中位数.cpp.s
 
-Z字形变换.o: Z字形变换.cpp.o
-.PHONY : Z字形变换.o
+ZigZagConversion.o: ZigZagConversion.cpp.o
+.PHONY : ZigZagConversion.o
 
 # target to build an object file
-Z字形变换.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/Z字形变换.cpp.o
-.PHONY : Z字形变换.cpp.o
+ZigZagConversion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.o
+.PHONY : ZigZagConversion.cpp.o
 
-Z字形变换.i: Z字形变换.cpp.i
-.PHONY : Z字形变换.i
+ZigZagConversion.i: ZigZagConversion.cpp.i
+.PHONY : ZigZagConversion.i
 
 # target to preprocess a source file
-Z字形变换.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/Z字形变换.cpp.i
-.PHONY : Z字形变换.cpp.i
+ZigZagConversion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.i
+.PHONY : ZigZagConversion.cpp.i
 
-Z字形变换.s: Z字形变换.cpp.s
-.PHONY : Z字形变换.s
+ZigZagConversion.s: ZigZagConversion.cpp.s
+.PHONY : ZigZagConversion.s
 
 # target to generate assembly for a file
-Z字形变换.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/Z字形变换.cpp.s
-.PHONY : Z字形变换.cpp.s
+ZigZagConversion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeeCode.dir/build.make CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.s
+.PHONY : ZigZagConversion.cpp.s
 
 最长回文子串.o: 最长回文子串.cpp.o
 .PHONY : 最长回文子串.o
@@ -294,9 +294,9 @@ help:
 	@echo "... 4.寻找两个正序数组的中位数.o"
 	@echo "... 4.寻找两个正序数组的中位数.i"
 	@echo "... 4.寻找两个正序数组的中位数.s"
-	@echo "... Z字形变换.o"
-	@echo "... Z字形变换.i"
-	@echo "... Z字形变换.s"
+	@echo "... ZigZagConversion.o"
+	@echo "... ZigZagConversion.i"
+	@echo "... ZigZagConversion.s"
 	@echo "... 最长回文子串.o"
 	@echo "... 最长回文子串.i"
 	@echo "... 最长回文子串.s"

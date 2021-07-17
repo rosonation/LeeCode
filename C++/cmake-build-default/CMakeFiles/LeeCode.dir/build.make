@@ -118,18 +118,18 @@ CMakeFiles/LeeCode.dir/4.寻找两个正序数组的中位数.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeeCode.dir/4.寻找两个正序数组的中位数.cpp.s"
 	/Users/tony/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tony/Documents/Project/LeeCode/C++/4.寻找两个正序数组的中位数.cpp -o CMakeFiles/LeeCode.dir/4.寻找两个正序数组的中位数.cpp.s
 
-CMakeFiles/LeeCode.dir/Z字形变换.cpp.o: CMakeFiles/LeeCode.dir/flags.make
-CMakeFiles/LeeCode.dir/Z字形变换.cpp.o: ../Z字形变换.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tony/Documents/Project/LeeCode/C++/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LeeCode.dir/Z字形变换.cpp.o"
-	/Users/tony/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeeCode.dir/Z字形变换.cpp.o -c /Users/tony/Documents/Project/LeeCode/C++/Z字形变换.cpp
+CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.o: CMakeFiles/LeeCode.dir/flags.make
+CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.o: ../ZigZagConversion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tony/Documents/Project/LeeCode/C++/cmake-build-default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.o"
+	/Users/tony/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.o -c /Users/tony/Documents/Project/LeeCode/C++/ZigZagConversion.cpp
 
-CMakeFiles/LeeCode.dir/Z字形变换.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeeCode.dir/Z字形变换.cpp.i"
-	/Users/tony/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tony/Documents/Project/LeeCode/C++/Z字形变换.cpp > CMakeFiles/LeeCode.dir/Z字形变换.cpp.i
+CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.i"
+	/Users/tony/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tony/Documents/Project/LeeCode/C++/ZigZagConversion.cpp > CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.i
 
-CMakeFiles/LeeCode.dir/Z字形变换.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeeCode.dir/Z字形变换.cpp.s"
-	/Users/tony/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tony/Documents/Project/LeeCode/C++/Z字形变换.cpp -o CMakeFiles/LeeCode.dir/Z字形变换.cpp.s
+CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.s"
+	/Users/tony/Downloads/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tony/Documents/Project/LeeCode/C++/ZigZagConversion.cpp -o CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.s
 
 CMakeFiles/LeeCode.dir/最长回文子串.cpp.o: CMakeFiles/LeeCode.dir/flags.make
 CMakeFiles/LeeCode.dir/最长回文子串.cpp.o: ../最长回文子串.cpp
@@ -150,7 +150,7 @@ LeeCode_OBJECTS = \
 "CMakeFiles/LeeCode.dir/2.addTwoNumbers.cpp.o" \
 "CMakeFiles/LeeCode.dir/3.无重复字符的最长子串.cpp.o" \
 "CMakeFiles/LeeCode.dir/4.寻找两个正序数组的中位数.cpp.o" \
-"CMakeFiles/LeeCode.dir/Z字形变换.cpp.o" \
+"CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.o" \
 "CMakeFiles/LeeCode.dir/最长回文子串.cpp.o"
 
 # External object files for target LeeCode
@@ -160,7 +160,7 @@ LeeCode: CMakeFiles/LeeCode.dir/1.twoSum.cpp.o
 LeeCode: CMakeFiles/LeeCode.dir/2.addTwoNumbers.cpp.o
 LeeCode: CMakeFiles/LeeCode.dir/3.无重复字符的最长子串.cpp.o
 LeeCode: CMakeFiles/LeeCode.dir/4.寻找两个正序数组的中位数.cpp.o
-LeeCode: CMakeFiles/LeeCode.dir/Z字形变换.cpp.o
+LeeCode: CMakeFiles/LeeCode.dir/ZigZagConversion.cpp.o
 LeeCode: CMakeFiles/LeeCode.dir/最长回文子串.cpp.o
 LeeCode: CMakeFiles/LeeCode.dir/build.make
 LeeCode: CMakeFiles/LeeCode.dir/link.txt

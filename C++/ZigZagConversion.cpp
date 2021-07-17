@@ -74,5 +74,4 @@ int main(int argc, char *args[]) {
     Solution5 so;
     so.convert(s1, n1);
     cout << so.convert(s1, n1) << endl;
-    cout << "hello world" << endl;
 }
