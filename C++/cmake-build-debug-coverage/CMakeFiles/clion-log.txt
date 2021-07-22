@@ -1,0 +1,4 @@
+"/Applications/CLion 2021.2 EAP.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_CXX_FLAGS=-fprofile-instr-generate -fcoverage-mapping" "-DCMAKE_C_FLAGS=-fprofile-instr-generate -fcoverage-mapping" -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/tony/Documents/Project/LeeCode/C++
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/tony/Documents/Project/LeeCode/C++/cmake-build-debug-coverage
