@@ -6,12 +6,11 @@
 //
 
 #include <vector>
-#include <iostream>
 using namespace::std;
 
 class Solution {
 public:
-    double getKthElement(const vector<int> &nums1, const vector<int> &nums2, int k) {
+    static double getKthElement(const vector<int> &nums1, const vector<int> &nums2, int k) {
         /* 主要思路：要找到第 k (k>1) 小的元素，那么就取 pivot1 = nums1[k/2-1] 和 pivot2 = nums2[k/2-1] 进行比较
          * 这里的 "/" 表示整除
          * nums1 中小于等于 pivot1 的元素有 nums1[0 .. k/2-2] 共计 k/2-1 个
@@ -52,13 +51,14 @@ public:
             }
         }
     }
-    double findMedianSortedArrays(vector<int> & nums1, vector<int> & nums2) {
+
+    static double findMedianSortedArrays(vector<int> &nums1, vector<int> &nums2) {
         int totalLength = int(nums1.size()) + int(nums2.size());
         if (totalLength % 2 == 1) {
-            return getKthElement(nums1, nums2, (totalLength + 1) /  2);
+            return getKthElement(nums1, nums2, (totalLength + 1) / 2);
         } else {
             return (getKthElement(nums1, nums2, totalLength / 2) + getKthElement(nums1,
-            nums2, totalLength / 2 + 1)) / 2.0;
+                                                                                 nums2, totalLength / 2 + 1)) / 2.0;
         }
     }
 };

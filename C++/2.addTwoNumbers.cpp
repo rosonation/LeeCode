@@ -44,18 +44,20 @@ struct ListNode {
     int val;
     ListNode *next;
     ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
+
+    explicit ListNode(int x) : val(x), next(nullptr) {}
+
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
 class Solution {
 public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+    static ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
         ListNode *head = nullptr, *tail = nullptr;
         int carry = 0;
         while (l1 || l2) {
-            int n1 = l1 ? l1->val: 0;
-            int n2 = l2 ? l2->val: 0;
+            int n1 = l1 ? l1->val : 0;
+            int n2 = l2 ? l2->val : 0;
             int sum = n1 + n2 + carry;
             if (!head) {
                 head = tail = new ListNode(sum % 10);
@@ -78,14 +80,13 @@ public:
     }
 
 public:
-    ListNode* addListNode(ListNode *pHead, int value) {
-        ListNode *pNew = new ListNode(); // 将int的值储存为链表
+    static ListNode *addListNode(ListNode *pHead, int value) {
+        auto *pNew = new ListNode(); // 将int的值储存为链表
         pNew->next = nullptr;
         pNew->val = value;
         if (pHead == nullptr) {
             pNew = pHead; //如果是空链表相加，那么新链表就是上面将int转化的链表
-        }
-        else {
+        } else {
             ListNode *pCopy = pHead; // 拷贝一份链表，作为循环条件
             while (pCopy->next != nullptr) {
                 pCopy = pCopy->next; // 指针移动

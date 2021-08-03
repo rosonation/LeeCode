@@ -38,8 +38,8 @@ using namespace std;
 
 class Solution4 {
 public:
-    string longestPalindrome(string s) {
-        int n = s.size();
+    static string longestPalindrome(string s) {
+        int n = int(s.size());
         if (n < 2) {
             return s;
         }

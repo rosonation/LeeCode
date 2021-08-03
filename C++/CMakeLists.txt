@@ -1,10 +1,11 @@
 cmake_minimum_required(VERSION 3.20)
+#project name
 project(LeeCode)
-
+#set environment variable
 set(CMAKE_CXX_STANDARD 17)
 
 include_directories(.)
-
+#add executable file
 add_executable(LeeCode
         1.twoSum.cpp
         2.addTwoNumbers.cpp

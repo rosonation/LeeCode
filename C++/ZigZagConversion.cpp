@@ -42,13 +42,12 @@
 
 #include <iostream>
 #include <vector>
-
 using namespace ::std;
 
 
 class Solution5 {
 public:
-    string convert(string s, int numRows) {
+    static string convert(string s, int numRows) {
 
         if (numRows == 1) return s;
 
@@ -63,7 +62,7 @@ public:
         }
 
         string ret;
-        for (string row : rows) ret += row;
+        for (const string &row : rows) ret += row;
         return ret;
     }
 };
@@ -71,7 +70,6 @@ public:
 int main(int argc, char *args[]) {
     string s1 = "PAYPALISHIRING";
     int n1 = 3;
-    Solution5 so;
-    so.convert(s1, n1);
-    cout << so.convert(s1, n1) << endl;
+    Solution5::convert(s1, n1);
+    cout << Solution5::convert(s1, n1) << endl;
 }

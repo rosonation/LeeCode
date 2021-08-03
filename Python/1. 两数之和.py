@@ -35,6 +35,9 @@ from typing import List
 
 
 class Solution:
+    def __init__(self):
+        pass
+
     @staticmethod
     def twosum_1(nums: List[int], target: int) -> List[int]:
         hashtable = dict()

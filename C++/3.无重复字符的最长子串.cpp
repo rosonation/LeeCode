@@ -37,7 +37,7 @@ using namespace::std;
 
 class Solution {
 public:
-    int lengthOfLongestSubstring(string s) {
+    static int lengthOfLongestSubstring(string s) {
         // 哈希集合，备忘录记录每个字符是否出现过
         unordered_set<char> memo;
         int n = int(s.size());
