@@ -43,57 +43,57 @@ include CMakeFiles/common.ninja
 
 build cmake_object_order_depends_target_LeeCode_DEBUG: phony || CMakeFiles/LeeCode.dir
 
-build CMakeFiles/LeeCode.dir/Debug/1.twoSum.cpp.o: CXX_COMPILER__LeeCode_Debug ../1.twoSum.cpp || cmake_object_order_depends_target_LeeCode_DEBUG
+build CMakeFiles/LeeCode.dir/Debug/[1].twoSum.cpp.o: CXX_COMPILER__LeeCode_Debug ../[1].twoSum.cpp || cmake_object_order_depends_target_LeeCode_DEBUG
   DEFINES = -DCMAKE_INTDIR=\"Debug\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/Debug/1.twoSum.cpp.o.d
+  DEP_FILE = CMakeFiles/LeeCode.dir/Debug/[1].twoSum.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
   INCLUDES = -I../.
   OBJECT_DIR = CMakeFiles/LeeCode.dir/Debug
   OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/Debug
 
-build CMakeFiles/LeeCode.dir/Debug/2.addTwoNumbers.cpp.o: CXX_COMPILER__LeeCode_Debug ../2.addTwoNumbers.cpp || cmake_object_order_depends_target_LeeCode_DEBUG
+build CMakeFiles/LeeCode.dir/Debug/[2].addTwoNumbers.cpp.o: CXX_COMPILER__LeeCode_Debug ../[2].addTwoNumbers.cpp || cmake_object_order_depends_target_LeeCode_DEBUG
   DEFINES = -DCMAKE_INTDIR=\"Debug\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/Debug/2.addTwoNumbers.cpp.o.d
+  DEP_FILE = CMakeFiles/LeeCode.dir/Debug/[2].addTwoNumbers.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
   INCLUDES = -I../.
   OBJECT_DIR = CMakeFiles/LeeCode.dir/Debug
   OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/Debug
 
-build CMakeFiles/LeeCode.dir/Debug/3.无重复字符的最长子串.cpp.o: CXX_COMPILER__LeeCode_Debug ../3.无重复字符的最长子串.cpp || cmake_object_order_depends_target_LeeCode_DEBUG
+build CMakeFiles/LeeCode.dir/Debug/[3].无重复字符的最长子串.cpp.o: CXX_COMPILER__LeeCode_Debug ../[3].无重复字符的最长子串.cpp || cmake_object_order_depends_target_LeeCode_DEBUG
   DEFINES = -DCMAKE_INTDIR=\"Debug\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/Debug/3.无重复字符的最长子串.cpp.o.d
+  DEP_FILE = CMakeFiles/LeeCode.dir/Debug/[3].无重复字符的最长子串.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
   INCLUDES = -I../.
   OBJECT_DIR = CMakeFiles/LeeCode.dir/Debug
   OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/Debug
 
-build CMakeFiles/LeeCode.dir/Debug/4.寻找两个正序数组的中位数.cpp.o: CXX_COMPILER__LeeCode_Debug ../4.寻找两个正序数组的中位数.cpp || cmake_object_order_depends_target_LeeCode_DEBUG
+build CMakeFiles/LeeCode.dir/Debug/[4].寻找两个正序数组的中位数.cpp.o: CXX_COMPILER__LeeCode_Debug ../[4].寻找两个正序数组的中位数.cpp || cmake_object_order_depends_target_LeeCode_DEBUG
   DEFINES = -DCMAKE_INTDIR=\"Debug\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/Debug/4.寻找两个正序数组的中位数.cpp.o.d
+  DEP_FILE = CMakeFiles/LeeCode.dir/Debug/[4].寻找两个正序数组的中位数.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
   INCLUDES = -I../.
   OBJECT_DIR = CMakeFiles/LeeCode.dir/Debug
   OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/Debug
 
-build CMakeFiles/LeeCode.dir/Debug/ZigZagConversion.cpp.o: CXX_COMPILER__LeeCode_Debug ../ZigZagConversion.cpp || cmake_object_order_depends_target_LeeCode_DEBUG
+build CMakeFiles/LeeCode.dir/Debug/[6].ZigZagConversion.cpp.o: CXX_COMPILER__LeeCode_Debug ../[6].ZigZagConversion.cpp || cmake_object_order_depends_target_LeeCode_DEBUG
   DEFINES = -DCMAKE_INTDIR=\"Debug\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/Debug/ZigZagConversion.cpp.o.d
+  DEP_FILE = CMakeFiles/LeeCode.dir/Debug/[6].ZigZagConversion.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
   INCLUDES = -I../.
   OBJECT_DIR = CMakeFiles/LeeCode.dir/Debug
   OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/Debug
 
-build CMakeFiles/LeeCode.dir/Debug/最长回文子串.cpp.o: CXX_COMPILER__LeeCode_Debug ../最长回文子串.cpp || cmake_object_order_depends_target_LeeCode_DEBUG
+build CMakeFiles/LeeCode.dir/Debug/[5].最长回文子串.cpp.o: CXX_COMPILER__LeeCode_Debug ../[5].最长回文子串.cpp || cmake_object_order_depends_target_LeeCode_DEBUG
   DEFINES = -DCMAKE_INTDIR=\"Debug\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/Debug/最长回文子串.cpp.o.d
+  DEP_FILE = CMakeFiles/LeeCode.dir/Debug/[5].最长回文子串.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
   INCLUDES = -I../.
   OBJECT_DIR = CMakeFiles/LeeCode.dir/Debug
   OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/Debug
 
-build CMakeFiles/LeeCode.dir/Debug/ReverseInteger.cpp.o: CXX_COMPILER__LeeCode_Debug ../ReverseInteger.cpp || cmake_object_order_depends_target_LeeCode_DEBUG
+build CMakeFiles/LeeCode.dir/Debug/[7].ReverseInteger.cpp.o: CXX_COMPILER__LeeCode_Debug ../[7].ReverseInteger.cpp || cmake_object_order_depends_target_LeeCode_DEBUG
   DEFINES = -DCMAKE_INTDIR=\"Debug\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/Debug/ReverseInteger.cpp.o.d
+  DEP_FILE = CMakeFiles/LeeCode.dir/Debug/[7].ReverseInteger.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
   INCLUDES = -I../.
   OBJECT_DIR = CMakeFiles/LeeCode.dir/Debug
@@ -107,7 +107,7 @@ build CMakeFiles/LeeCode.dir/Debug/ReverseInteger.cpp.o: CXX_COMPILER__LeeCode_D
 #############################################
 # Link the executable Debug/LeeCode
 
-build Debug/LeeCode: CXX_EXECUTABLE_LINKER__LeeCode_Debug CMakeFiles/LeeCode.dir/Debug/1.twoSum.cpp.o CMakeFiles/LeeCode.dir/Debug/2.addTwoNumbers.cpp.o CMakeFiles/LeeCode.dir/Debug/3.无重复字符的最长子串.cpp.o CMakeFiles/LeeCode.dir/Debug/4.寻找两个正序数组的中位数.cpp.o CMakeFiles/LeeCode.dir/Debug/ZigZagConversion.cpp.o CMakeFiles/LeeCode.dir/Debug/最长回文子串.cpp.o CMakeFiles/LeeCode.dir/Debug/ReverseInteger.cpp.o
+build Debug/LeeCode: CXX_EXECUTABLE_LINKER__LeeCode_Debug CMakeFiles/LeeCode.dir/Debug/[1].twoSum.cpp.o CMakeFiles/LeeCode.dir/Debug/[2].addTwoNumbers.cpp.o CMakeFiles/LeeCode.dir/Debug/[3].无重复字符的最长子串.cpp.o CMakeFiles/LeeCode.dir/Debug/[4].寻找两个正序数组的中位数.cpp.o CMakeFiles/LeeCode.dir/Debug/[6].ZigZagConversion.cpp.o CMakeFiles/LeeCode.dir/Debug/[5].最长回文子串.cpp.o CMakeFiles/LeeCode.dir/Debug/[7].ReverseInteger.cpp.o
   FLAGS = -g -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk"
   OBJECT_DIR = CMakeFiles/LeeCode.dir/Debug
   POST_BUILD = :

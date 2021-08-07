@@ -43,57 +43,57 @@ include CMakeFiles/common.ninja
 
 build cmake_object_order_depends_target_LeeCode_RELWITHDEBINFO: phony || CMakeFiles/LeeCode.dir
 
-build CMakeFiles/LeeCode.dir/RelWithDebInfo/1.twoSum.cpp.o: CXX_COMPILER__LeeCode_RelWithDebInfo ../1.twoSum.cpp || cmake_object_order_depends_target_LeeCode_RELWITHDEBINFO
+build CMakeFiles/LeeCode.dir/RelWithDebInfo/[1].twoSum.cpp.o: CXX_COMPILER__LeeCode_RelWithDebInfo ../[1].twoSum.cpp || cmake_object_order_depends_target_LeeCode_RELWITHDEBINFO
   DEFINES = -DCMAKE_INTDIR=\"RelWithDebInfo\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/RelWithDebInfo/1.twoSum.cpp.o.d
+  DEP_FILE = CMakeFiles/LeeCode.dir/RelWithDebInfo/[1].twoSum.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
   INCLUDES = -I../.
   OBJECT_DIR = CMakeFiles/LeeCode.dir/RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/RelWithDebInfo
 
-build CMakeFiles/LeeCode.dir/RelWithDebInfo/2.addTwoNumbers.cpp.o: CXX_COMPILER__LeeCode_RelWithDebInfo ../2.addTwoNumbers.cpp || cmake_object_order_depends_target_LeeCode_RELWITHDEBINFO
+build CMakeFiles/LeeCode.dir/RelWithDebInfo/[2].addTwoNumbers.cpp.o: CXX_COMPILER__LeeCode_RelWithDebInfo ../[2].addTwoNumbers.cpp || cmake_object_order_depends_target_LeeCode_RELWITHDEBINFO
   DEFINES = -DCMAKE_INTDIR=\"RelWithDebInfo\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/RelWithDebInfo/2.addTwoNumbers.cpp.o.d
+  DEP_FILE = CMakeFiles/LeeCode.dir/RelWithDebInfo/[2].addTwoNumbers.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
   INCLUDES = -I../.
   OBJECT_DIR = CMakeFiles/LeeCode.dir/RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/RelWithDebInfo
 
-build CMakeFiles/LeeCode.dir/RelWithDebInfo/3.无重复字符的最长子串.cpp.o: CXX_COMPILER__LeeCode_RelWithDebInfo ../3.无重复字符的最长子串.cpp || cmake_object_order_depends_target_LeeCode_RELWITHDEBINFO
+build CMakeFiles/LeeCode.dir/RelWithDebInfo/[3].无重复字符的最长子串.cpp.o: CXX_COMPILER__LeeCode_RelWithDebInfo ../[3].无重复字符的最长子串.cpp || cmake_object_order_depends_target_LeeCode_RELWITHDEBINFO
   DEFINES = -DCMAKE_INTDIR=\"RelWithDebInfo\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/RelWithDebInfo/3.无重复字符的最长子串.cpp.o.d
+  DEP_FILE = CMakeFiles/LeeCode.dir/RelWithDebInfo/[3].无重复字符的最长子串.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
   INCLUDES = -I../.
   OBJECT_DIR = CMakeFiles/LeeCode.dir/RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/RelWithDebInfo
 
-build CMakeFiles/LeeCode.dir/RelWithDebInfo/4.寻找两个正序数组的中位数.cpp.o: CXX_COMPILER__LeeCode_RelWithDebInfo ../4.寻找两个正序数组的中位数.cpp || cmake_object_order_depends_target_LeeCode_RELWITHDEBINFO
+build CMakeFiles/LeeCode.dir/RelWithDebInfo/[4].寻找两个正序数组的中位数.cpp.o: CXX_COMPILER__LeeCode_RelWithDebInfo ../[4].寻找两个正序数组的中位数.cpp || cmake_object_order_depends_target_LeeCode_RELWITHDEBINFO
   DEFINES = -DCMAKE_INTDIR=\"RelWithDebInfo\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/RelWithDebInfo/4.寻找两个正序数组的中位数.cpp.o.d
+  DEP_FILE = CMakeFiles/LeeCode.dir/RelWithDebInfo/[4].寻找两个正序数组的中位数.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
   INCLUDES = -I../.
   OBJECT_DIR = CMakeFiles/LeeCode.dir/RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/RelWithDebInfo
 
-build CMakeFiles/LeeCode.dir/RelWithDebInfo/ZigZagConversion.cpp.o: CXX_COMPILER__LeeCode_RelWithDebInfo ../ZigZagConversion.cpp || cmake_object_order_depends_target_LeeCode_RELWITHDEBINFO
+build CMakeFiles/LeeCode.dir/RelWithDebInfo/[6].ZigZagConversion.cpp.o: CXX_COMPILER__LeeCode_RelWithDebInfo ../[6].ZigZagConversion.cpp || cmake_object_order_depends_target_LeeCode_RELWITHDEBINFO
   DEFINES = -DCMAKE_INTDIR=\"RelWithDebInfo\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/RelWithDebInfo/ZigZagConversion.cpp.o.d
+  DEP_FILE = CMakeFiles/LeeCode.dir/RelWithDebInfo/[6].ZigZagConversion.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
   INCLUDES = -I../.
   OBJECT_DIR = CMakeFiles/LeeCode.dir/RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/RelWithDebInfo
 
-build CMakeFiles/LeeCode.dir/RelWithDebInfo/最长回文子串.cpp.o: CXX_COMPILER__LeeCode_RelWithDebInfo ../最长回文子串.cpp || cmake_object_order_depends_target_LeeCode_RELWITHDEBINFO
+build CMakeFiles/LeeCode.dir/RelWithDebInfo/[5].最长回文子串.cpp.o: CXX_COMPILER__LeeCode_RelWithDebInfo ../[5].最长回文子串.cpp || cmake_object_order_depends_target_LeeCode_RELWITHDEBINFO
   DEFINES = -DCMAKE_INTDIR=\"RelWithDebInfo\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/RelWithDebInfo/最长回文子串.cpp.o.d
+  DEP_FILE = CMakeFiles/LeeCode.dir/RelWithDebInfo/[5].最长回文子串.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
   INCLUDES = -I../.
   OBJECT_DIR = CMakeFiles/LeeCode.dir/RelWithDebInfo
   OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/RelWithDebInfo
 
-build CMakeFiles/LeeCode.dir/RelWithDebInfo/ReverseInteger.cpp.o: CXX_COMPILER__LeeCode_RelWithDebInfo ../ReverseInteger.cpp || cmake_object_order_depends_target_LeeCode_RELWITHDEBINFO
+build CMakeFiles/LeeCode.dir/RelWithDebInfo/[7].ReverseInteger.cpp.o: CXX_COMPILER__LeeCode_RelWithDebInfo ../[7].ReverseInteger.cpp || cmake_object_order_depends_target_LeeCode_RELWITHDEBINFO
   DEFINES = -DCMAKE_INTDIR=\"RelWithDebInfo\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/RelWithDebInfo/ReverseInteger.cpp.o.d
+  DEP_FILE = CMakeFiles/LeeCode.dir/RelWithDebInfo/[7].ReverseInteger.cpp.o.d
   FLAGS = -O2 -g -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
   INCLUDES = -I../.
   OBJECT_DIR = CMakeFiles/LeeCode.dir/RelWithDebInfo
@@ -107,7 +107,7 @@ build CMakeFiles/LeeCode.dir/RelWithDebInfo/ReverseInteger.cpp.o: CXX_COMPILER__
 #############################################
 # Link the executable RelWithDebInfo/LeeCode
 
-build RelWithDebInfo/LeeCode: CXX_EXECUTABLE_LINKER__LeeCode_RelWithDebInfo CMakeFiles/LeeCode.dir/RelWithDebInfo/1.twoSum.cpp.o CMakeFiles/LeeCode.dir/RelWithDebInfo/2.addTwoNumbers.cpp.o CMakeFiles/LeeCode.dir/RelWithDebInfo/3.无重复字符的最长子串.cpp.o CMakeFiles/LeeCode.dir/RelWithDebInfo/4.寻找两个正序数组的中位数.cpp.o CMakeFiles/LeeCode.dir/RelWithDebInfo/ZigZagConversion.cpp.o CMakeFiles/LeeCode.dir/RelWithDebInfo/最长回文子串.cpp.o CMakeFiles/LeeCode.dir/RelWithDebInfo/ReverseInteger.cpp.o
+build RelWithDebInfo/LeeCode: CXX_EXECUTABLE_LINKER__LeeCode_RelWithDebInfo CMakeFiles/LeeCode.dir/RelWithDebInfo/[1].twoSum.cpp.o CMakeFiles/LeeCode.dir/RelWithDebInfo/[2].addTwoNumbers.cpp.o CMakeFiles/LeeCode.dir/RelWithDebInfo/[3].无重复字符的最长子串.cpp.o CMakeFiles/LeeCode.dir/RelWithDebInfo/[4].寻找两个正序数组的中位数.cpp.o CMakeFiles/LeeCode.dir/RelWithDebInfo/[6].ZigZagConversion.cpp.o CMakeFiles/LeeCode.dir/RelWithDebInfo/[5].最长回文子串.cpp.o CMakeFiles/LeeCode.dir/RelWithDebInfo/[7].ReverseInteger.cpp.o
   FLAGS = -O2 -g -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk"
   OBJECT_DIR = CMakeFiles/LeeCode.dir/RelWithDebInfo
   POST_BUILD = :
