@@ -10,6 +10,7 @@ target/
 #----------Xcode----------
 .DS_Store
 #----------Clion----------
-cmake-build-debug/
+CMakeFiles/
+cmake-build-debug-gcc/
 cmake-build-default/
 cmake-build-default-coverage/

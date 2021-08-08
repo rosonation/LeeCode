@@ -1,4 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake "-DCMAKE_C_COMPILER=/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-DCMAKE_CXX_COMPILER=/Applications/Xcode-beta 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -G "Ninja Multi-Config" /Users/tony/Documents/Project/LeeCode/C++
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/tony/Documents/Project/LeeCode/C++/cmake-build-debug-gcc
