@@ -52,8 +52,8 @@ public:
     }
 };
 
-int main(int argc, char * agrv []) {
-    const int i1 = 123;
-    Solution::reverse(i1);
-    cout << Solution::reverse(i1) << endl;
-}
+//int main(int argc, char * agrv []) {
+//    const int i1 = 123;
+//    Solution::reverse(i1);
+//    cout << Solution::reverse(i1) << endl;
+//}
