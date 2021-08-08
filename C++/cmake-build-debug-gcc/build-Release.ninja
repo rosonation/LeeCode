@@ -6,7 +6,7 @@
 
 include CMakeFiles/impl-Release.ninja
 
-build LeeCode: phony Release/LeeCode
+build C++: phony Release/C++
 
 
 #############################################

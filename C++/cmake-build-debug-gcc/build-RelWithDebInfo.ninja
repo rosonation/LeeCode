@@ -6,7 +6,7 @@
 
 include CMakeFiles/impl-RelWithDebInfo.ninja
 
-build LeeCode: phony RelWithDebInfo/LeeCode
+build C++: phony RelWithDebInfo/C++
 
 
 #############################################

@@ -2,11 +2,11 @@ cmake_minimum_required(VERSION 3.20)
 #project name
 project(LeeCode)
 #set environment variable
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 include_directories(.)
 #add executable file
-add_executable(LeeCode
+add_executable(C++
         [1].twoSum.cpp
         [2].addTwoNumbers.cpp
         [3].无重复字符的最长子串.cpp

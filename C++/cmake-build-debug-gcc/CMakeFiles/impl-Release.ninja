@@ -35,93 +35,93 @@ CONFIGURATION = Release
 include CMakeFiles/common.ninja
 
 # =============================================================================
-# Object build statements for EXECUTABLE target LeeCode
+# Object build statements for EXECUTABLE target C++
 
 
 #############################################
-# Order-only phony target for LeeCode
+# Order-only phony target for C++
 
-build cmake_object_order_depends_target_LeeCode_RELEASE: phony || CMakeFiles/LeeCode.dir
+build cmake_object_order_depends_target_C++_RELEASE: phony || CMakeFiles/C++.dir
 
-build CMakeFiles/LeeCode.dir/Release/[1].twoSum.cpp.o: CXX_COMPILER__LeeCode_Release ../[1].twoSum.cpp || cmake_object_order_depends_target_LeeCode_RELEASE
+build CMakeFiles/C++.dir/Release/[1].twoSum.cpp.o: CXX_COMPILER__C.2b.2b_Release ../[1].twoSum.cpp || cmake_object_order_depends_target_C++_RELEASE
   DEFINES = -DCMAKE_INTDIR=\"Release\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/Release/[1].twoSum.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
+  DEP_FILE = CMakeFiles/C++.dir/Release/[1].twoSum.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++2a
   INCLUDES = -I../.
-  OBJECT_DIR = CMakeFiles/LeeCode.dir/Release
-  OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/Release
+  OBJECT_DIR = CMakeFiles/C++.dir/Release
+  OBJECT_FILE_DIR = CMakeFiles/C++.dir/Release
 
-build CMakeFiles/LeeCode.dir/Release/[2].addTwoNumbers.cpp.o: CXX_COMPILER__LeeCode_Release ../[2].addTwoNumbers.cpp || cmake_object_order_depends_target_LeeCode_RELEASE
+build CMakeFiles/C++.dir/Release/[2].addTwoNumbers.cpp.o: CXX_COMPILER__C.2b.2b_Release ../[2].addTwoNumbers.cpp || cmake_object_order_depends_target_C++_RELEASE
   DEFINES = -DCMAKE_INTDIR=\"Release\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/Release/[2].addTwoNumbers.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
+  DEP_FILE = CMakeFiles/C++.dir/Release/[2].addTwoNumbers.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++2a
   INCLUDES = -I../.
-  OBJECT_DIR = CMakeFiles/LeeCode.dir/Release
-  OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/Release
+  OBJECT_DIR = CMakeFiles/C++.dir/Release
+  OBJECT_FILE_DIR = CMakeFiles/C++.dir/Release
 
-build CMakeFiles/LeeCode.dir/Release/[3].无重复字符的最长子串.cpp.o: CXX_COMPILER__LeeCode_Release ../[3].无重复字符的最长子串.cpp || cmake_object_order_depends_target_LeeCode_RELEASE
+build CMakeFiles/C++.dir/Release/[3].无重复字符的最长子串.cpp.o: CXX_COMPILER__C.2b.2b_Release ../[3].无重复字符的最长子串.cpp || cmake_object_order_depends_target_C++_RELEASE
   DEFINES = -DCMAKE_INTDIR=\"Release\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/Release/[3].无重复字符的最长子串.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
+  DEP_FILE = CMakeFiles/C++.dir/Release/[3].无重复字符的最长子串.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++2a
   INCLUDES = -I../.
-  OBJECT_DIR = CMakeFiles/LeeCode.dir/Release
-  OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/Release
+  OBJECT_DIR = CMakeFiles/C++.dir/Release
+  OBJECT_FILE_DIR = CMakeFiles/C++.dir/Release
 
-build CMakeFiles/LeeCode.dir/Release/[4].寻找两个正序数组的中位数.cpp.o: CXX_COMPILER__LeeCode_Release ../[4].寻找两个正序数组的中位数.cpp || cmake_object_order_depends_target_LeeCode_RELEASE
+build CMakeFiles/C++.dir/Release/[4].寻找两个正序数组的中位数.cpp.o: CXX_COMPILER__C.2b.2b_Release ../[4].寻找两个正序数组的中位数.cpp || cmake_object_order_depends_target_C++_RELEASE
   DEFINES = -DCMAKE_INTDIR=\"Release\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/Release/[4].寻找两个正序数组的中位数.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
+  DEP_FILE = CMakeFiles/C++.dir/Release/[4].寻找两个正序数组的中位数.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++2a
   INCLUDES = -I../.
-  OBJECT_DIR = CMakeFiles/LeeCode.dir/Release
-  OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/Release
+  OBJECT_DIR = CMakeFiles/C++.dir/Release
+  OBJECT_FILE_DIR = CMakeFiles/C++.dir/Release
 
-build CMakeFiles/LeeCode.dir/Release/[6].ZigZagConversion.cpp.o: CXX_COMPILER__LeeCode_Release ../[6].ZigZagConversion.cpp || cmake_object_order_depends_target_LeeCode_RELEASE
+build CMakeFiles/C++.dir/Release/[6].ZigZagConversion.cpp.o: CXX_COMPILER__C.2b.2b_Release ../[6].ZigZagConversion.cpp || cmake_object_order_depends_target_C++_RELEASE
   DEFINES = -DCMAKE_INTDIR=\"Release\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/Release/[6].ZigZagConversion.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
+  DEP_FILE = CMakeFiles/C++.dir/Release/[6].ZigZagConversion.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++2a
   INCLUDES = -I../.
-  OBJECT_DIR = CMakeFiles/LeeCode.dir/Release
-  OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/Release
+  OBJECT_DIR = CMakeFiles/C++.dir/Release
+  OBJECT_FILE_DIR = CMakeFiles/C++.dir/Release
 
-build CMakeFiles/LeeCode.dir/Release/[5].最长回文子串.cpp.o: CXX_COMPILER__LeeCode_Release ../[5].最长回文子串.cpp || cmake_object_order_depends_target_LeeCode_RELEASE
+build CMakeFiles/C++.dir/Release/[5].最长回文子串.cpp.o: CXX_COMPILER__C.2b.2b_Release ../[5].最长回文子串.cpp || cmake_object_order_depends_target_C++_RELEASE
   DEFINES = -DCMAKE_INTDIR=\"Release\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/Release/[5].最长回文子串.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
+  DEP_FILE = CMakeFiles/C++.dir/Release/[5].最长回文子串.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++2a
   INCLUDES = -I../.
-  OBJECT_DIR = CMakeFiles/LeeCode.dir/Release
-  OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/Release
+  OBJECT_DIR = CMakeFiles/C++.dir/Release
+  OBJECT_FILE_DIR = CMakeFiles/C++.dir/Release
 
-build CMakeFiles/LeeCode.dir/Release/[7].ReverseInteger.cpp.o: CXX_COMPILER__LeeCode_Release ../[7].ReverseInteger.cpp || cmake_object_order_depends_target_LeeCode_RELEASE
+build CMakeFiles/C++.dir/Release/[7].ReverseInteger.cpp.o: CXX_COMPILER__C.2b.2b_Release ../[7].ReverseInteger.cpp || cmake_object_order_depends_target_C++_RELEASE
   DEFINES = -DCMAKE_INTDIR=\"Release\"
-  DEP_FILE = CMakeFiles/LeeCode.dir/Release/[7].ReverseInteger.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++17
+  DEP_FILE = CMakeFiles/C++.dir/Release/[7].ReverseInteger.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk" -std=gnu++2a
   INCLUDES = -I../.
-  OBJECT_DIR = CMakeFiles/LeeCode.dir/Release
-  OBJECT_FILE_DIR = CMakeFiles/LeeCode.dir/Release
+  OBJECT_DIR = CMakeFiles/C++.dir/Release
+  OBJECT_FILE_DIR = CMakeFiles/C++.dir/Release
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target LeeCode
+# Link build statements for EXECUTABLE target C++
 
 
 #############################################
-# Link the executable Release/LeeCode
+# Link the executable Release/C++
 
-build Release/LeeCode: CXX_EXECUTABLE_LINKER__LeeCode_Release CMakeFiles/LeeCode.dir/Release/[1].twoSum.cpp.o CMakeFiles/LeeCode.dir/Release/[2].addTwoNumbers.cpp.o CMakeFiles/LeeCode.dir/Release/[3].无重复字符的最长子串.cpp.o CMakeFiles/LeeCode.dir/Release/[4].寻找两个正序数组的中位数.cpp.o CMakeFiles/LeeCode.dir/Release/[6].ZigZagConversion.cpp.o CMakeFiles/LeeCode.dir/Release/[5].最长回文子串.cpp.o CMakeFiles/LeeCode.dir/Release/[7].ReverseInteger.cpp.o
+build Release/C++: CXX_EXECUTABLE_LINKER__C.2b.2b_Release CMakeFiles/C++.dir/Release/[1].twoSum.cpp.o CMakeFiles/C++.dir/Release/[2].addTwoNumbers.cpp.o CMakeFiles/C++.dir/Release/[3].无重复字符的最长子串.cpp.o CMakeFiles/C++.dir/Release/[4].寻找两个正序数组的中位数.cpp.o CMakeFiles/C++.dir/Release/[6].ZigZagConversion.cpp.o CMakeFiles/C++.dir/Release/[5].最长回文子串.cpp.o CMakeFiles/C++.dir/Release/[7].ReverseInteger.cpp.o
   FLAGS = -O3 -DNDEBUG -arch arm64 -isysroot "/Applications/Xcode-beta 2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk"
-  OBJECT_DIR = CMakeFiles/LeeCode.dir/Release
+  OBJECT_DIR = CMakeFiles/C++.dir/Release
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = Release/LeeCode
-  TARGET_PDB = LeeCode.dbg
+  TARGET_FILE = Release/C++
+  TARGET_PDB = C++.dbg
 
-build LeeCode$:Release: phony Release/LeeCode
+build C++$:Release: phony Release/C++
 
 
 #############################################
 # Folder: /Users/tony/Documents/Project/LeeCode/C++/cmake-build-debug-gcc
 
-build all$:Release: phony Release/LeeCode
+build all$:Release: phony Release/C++
 
 
 #############################################

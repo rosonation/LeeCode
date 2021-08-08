@@ -78,19 +78,19 @@ build CMakeFiles/cmake_byproducts_for_clean_target: phony
 #############################################
 # Clean byproducts.
 
-build CMakeFiles/cmake_byproducts_for_clean_target$:Debug: phony Debug/LeeCode
+build CMakeFiles/cmake_byproducts_for_clean_target$:Debug: phony Debug/C++
 
 
 #############################################
 # Clean byproducts.
 
-build CMakeFiles/cmake_byproducts_for_clean_target$:Release: phony Release/LeeCode
+build CMakeFiles/cmake_byproducts_for_clean_target$:Release: phony Release/C++
 
 
 #############################################
 # Clean byproducts.
 
-build CMakeFiles/cmake_byproducts_for_clean_target$:RelWithDebInfo: phony RelWithDebInfo/LeeCode
+build CMakeFiles/cmake_byproducts_for_clean_target$:RelWithDebInfo: phony RelWithDebInfo/C++
 
 
 #############################################

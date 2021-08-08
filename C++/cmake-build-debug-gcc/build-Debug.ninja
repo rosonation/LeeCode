@@ -6,7 +6,7 @@
 
 include CMakeFiles/impl-Debug.ninja
 
-build LeeCode: phony Debug/LeeCode
+build C++: phony Debug/C++
 
 
 #############################################
