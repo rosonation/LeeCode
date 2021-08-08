@@ -29,7 +29,7 @@ package com;
 import java.util.HashSet;
 import java.util.Set;
 
-class Solution2 {
+class Solution3 {
     public static int lengthOfLongestSubstring(String s) {
         // 哈希集合，备忘录记录每个字符是否出现过
         Set<Character> memo = new HashSet<>();
@@ -54,7 +54,7 @@ class Solution2 {
 
     public static void main(String[] args) {
         String s = "abcabcbb";
-        Solution2.lengthOfLongestSubstring(s);
-        System.out.println(Solution2.lengthOfLongestSubstring(s));
+        Solution3.lengthOfLongestSubstring(s);
+        System.out.println(Solution3.lengthOfLongestSubstring(s));
     }
 }

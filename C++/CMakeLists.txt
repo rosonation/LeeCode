@@ -7,9 +7,9 @@ set(CMAKE_CXX_STANDARD 20)
 include_directories(.)
 #add executable file
 add_executable(C++
-        [1].twoSum.cpp
-        [2].addTwoNumbers.cpp
+        [1].两数之和.cpp
+        [2].两数相加.cpp
         [3].无重复字符的最长子串.cpp
         [4].寻找两个正序数组的中位数.cpp
-        [6].ZigZagConversion.cpp
-        [5].最长回文子串.cpp [7].ReverseInteger.cpp)
+        [6].Z字形变换.cpp
+        [5].最长回文子串.cpp [7].整数反转.cpp [8].字符串转换整数.cpp)

@@ -43,7 +43,7 @@
 //
 package com;
 
-class Solution3 {
+class Solution4 {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int length1 = nums1.length, length2 = nums2.length;
         int totalLength = length1 + length2;
@@ -52,7 +52,7 @@ class Solution3 {
             return getKthElement(nums1, nums2, midIndex + 1);
         } else {
             int midIndex1 = totalLength / 2 - 1, midIndex2 = totalLength / 2;
-            return (getKthElement(nums1, nums2 ,midIndex1 + 1) + getKthElement(nums1, nums2, midIndex2 + 1)) / 2.0;
+            return (getKthElement(nums1, nums2, midIndex1 + 1) + getKthElement(nums1, nums2, midIndex2 + 1)) / 2.0;
         }
     }
     public static int getKthElement(int[] nums1, int[] nums2, int k) {
@@ -100,7 +100,7 @@ class Solution3 {
     public static void main(String[] args) {
         int[] i1 = {1, 3};
         int[] i2 = {2};
-        Solution3.findMedianSortedArrays(i1, i2);
-        System.out.println(Solution3.findMedianSortedArrays(i1, i2));
+        Solution4.findMedianSortedArrays(i1, i2);
+        System.out.println(Solution4.findMedianSortedArrays(i1, i2));
     }
 }

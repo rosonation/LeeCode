@@ -12,7 +12,7 @@ class ListNode {
     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
 
-class Solution1 {
+class Solution2 {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode head = null, tail = null;
         int carry = 0;
@@ -58,11 +58,11 @@ class Solution1 {
     }
     public static void main(String[] args) {
         ListNode l1 = new ListNode(2);
-        Solution1.addListNode(l1, 4);
-        Solution1.addListNode(l1, 3);
+        Solution2.addListNode(l1, 4);
+        Solution2.addListNode(l1, 3);
         ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
         listPrint(l1);
-        Solution1.addTwoNumbers(l1, l2);
-        listPrint(Solution1.addTwoNumbers(l1, l2));
+        Solution2.addTwoNumbers(l1, l2);
+        listPrint(Solution2.addTwoNumbers(l1, l2));
     }
 }

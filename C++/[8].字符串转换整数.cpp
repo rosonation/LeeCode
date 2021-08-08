@@ -1,5 +1,5 @@
 //
-// Created by Tony on 2021/7/17.
+// Created by Tony on 2021/8/8.
 //
 
 #include <iostream>
@@ -53,8 +53,8 @@ public:
     }
 };
 
-int main(int argc, char *argv[]) {
-    const string s1 = "-91283472332";
-    Solution::myAtoi(s1);
-    cout << Solution::myAtoi(s1) << endl;
-}
+//int main(int argc, char *argv[]) {
+//    const string s1 = "-91283472332";
+//    Solution::myAtoi(s1);
+//    cout << Solution::myAtoi(s1) << endl;
+//}

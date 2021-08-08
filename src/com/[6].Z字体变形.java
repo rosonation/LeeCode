@@ -3,7 +3,7 @@ package com;
 import java.util.ArrayList;
 import java.util.List;
 
-class Solution5 {
+class Solution6 {
     public static String convert(String s, int numRows) {
 
         if (numRows == 1) return s;
@@ -29,7 +29,7 @@ class Solution5 {
     public static void main(String[] args) {
         String s1 = "PAYPALISHIRING";
         int n1 = 3;
-        String result = Solution5.convert(s1, n1);
+        String result = Solution6.convert(s1, n1);
         System.out.println(result);
     }
 }

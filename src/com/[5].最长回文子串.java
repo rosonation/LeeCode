@@ -1,6 +1,6 @@
 package com;
 
-class Solution4 {
+class Solution5 {
     public static String longestPalindrome(String s) {
         int len = s.length();
         if (len < 2) {
@@ -51,7 +51,7 @@ class Solution4 {
 
     public static void main(String[] args) {
         String s1 = "babad";
-        Solution4.longestPalindrome(s1);
-        System.out.println(Solution4.longestPalindrome(s1));
+        Solution5.longestPalindrome(s1);
+        System.out.println(Solution5.longestPalindrome(s1));
     }
 }
