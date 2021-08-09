@@ -52,8 +52,8 @@ using namespace std;
 class Solution {
 public:
     static bool isMatch(string s, string p) {
-        int m = int(s.size());
-        int n = int(p.size());
+        int m = s.size();
+        int n = p.size();
 
         auto matches = [&](int i, int j) {
             if (i == 0) {
@@ -72,7 +72,7 @@ public:
                 if (p[j - 1] == '*') {
                     f[i][j] |= f[i][j - 2];
                     if (matches(i, j - 1)) {
-                        f[i][j] = f[i - 1][j];
+                        f[i][j] |= f[i - 1][j];
                     }
                 } else {
                     if (matches(i, j)) {
@@ -87,7 +87,7 @@ public:
 
 int main(int argc, char *argv[]) {
     string s1 = "aab";
-    string s2 = "c*a*b";
-    Solution::isMatch(s1, s2);
-    cout << Solution::isMatch(s1, s2) << endl;
+    string p1 = "ab*a*c*a";
+    Solution::isMatch(s1, p1);
+    cout << Solution::isMatch(s1, p1) << endl;
 }
