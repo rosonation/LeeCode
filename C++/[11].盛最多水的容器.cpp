@@ -59,9 +59,9 @@ public:
     }
 };
 
-int main(int argc, char *argv[]) {
-    int b[9] = {1, 8, 6, 2, 5, 4, 8, 3, 7};
-    vector<int> a(b, b + 9);
-    Solution::maxArea(a);
-    cout << Solution::maxArea(a) << endl;
-}
+//int main(int argc, char *argv[]) {
+//    int b[9] = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+//    vector<int> a(b, b + 9);
+//    Solution::maxArea(a);
+//    cout << Solution::maxArea(a) << endl;
+//}
