@@ -74,7 +74,7 @@ static unordered_map<char, int> symbolValues = {
 
 class Solution {
 public:
-    static int romanToInt(string s) {
+    [[maybe_unused]] static int romanToInt(string s) {
         int ans = 0;
         int n = s.length();
         for (int i = 0; i < n; ++i) {
@@ -90,8 +90,8 @@ public:
 };
 
 
-int main(int argc, char *agrv[]) {
-    string s1 = "VI";
-    Solution::romanToInt(s1);
-    cout << Solution::romanToInt(s1) << endl;
-}
+//int main(int argc, char *agrv[]) {
+//    string s1 = "VI";
+//    Solution::romanToInt(s1);
+//    cout << Solution::romanToInt(s1) << endl;
+//}
