@@ -1,6 +1,6 @@
 package com;
 
-class Solution11 {
+final class Solution11 {
     public static int maxArea(int[] height) {
         int l = 0, r = height.length - 1;
         int ans = 0;
