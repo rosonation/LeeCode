@@ -44,7 +44,7 @@ public:
 
 class Solution {
 public:
-    static long long myAtoi(const string &str) {
+    [[maybe_unused]] static long long myAtoi(const string &str) {
         Automaton automaton;
         for (char c: str) {
             automaton.get(c);

@@ -52,7 +52,7 @@ public:
         }
     }
 
-    static double findMedianSortedArrays(vector<int> &nums1, vector<int> &nums2) {
+    [[maybe_unused]] static double findMedianSortedArrays(vector<int> &nums1, vector<int> &nums2) {
         int totalLength = int(nums1.size()) + int(nums2.size());
         if (totalLength % 2 == 1) {
             return getKthElement(nums1, nums2, (totalLength + 1) / 2);

@@ -38,7 +38,7 @@ using namespace std;
 
 class Solution {
 public:
-    static int reverse(int x) {
+    [[maybe_unused]] static int reverse(int x) {
         int rev = 0;
         while (x != 0) {
             if (rev < INT_MIN / 10 || rev > INT_MAX / 10) {

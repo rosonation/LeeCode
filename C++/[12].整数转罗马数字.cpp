@@ -75,7 +75,7 @@ const pair<int, string> valueSymbols[] = {
 
 class Solution {
 public:
-    static string intToRoman(int num) {
+    [[maybe_unused]] static string intToRoman(int num) {
         string roman;
         for (const auto &[value, symbol] : valueSymbols) {
             while (num >= value) {
@@ -87,7 +87,7 @@ public:
             }
         }
         return roman;
-    }
+    };
 
 };
 

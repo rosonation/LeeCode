@@ -51,7 +51,7 @@ using namespace std;
 
 class Solution {
 public:
-    static bool isMatch(string s, string p) {
+    [[maybe_unused]] static bool isMatch(string s, string p) {
         int m = (int) s.size();
         int n = (int) p.size();
 

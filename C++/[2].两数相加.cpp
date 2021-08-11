@@ -47,12 +47,12 @@ struct ListNode {
 
     explicit ListNode(int x) : val(x), next(nullptr) {}
 
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
+    [[maybe_unused]] ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
 class Solution {
 public:
-    static ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
+    [[maybe_unused]] static ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
         ListNode *head = nullptr, *tail = nullptr;
         int carry = 0;
         while (l1 || l2) {
@@ -80,13 +80,11 @@ public:
     }
 
 public:
-    static ListNode *addListNode(ListNode *pHead, int value) {
+    [[maybe_unused]] static ListNode *addListNode(ListNode *pHead, int value) {
         auto *pNew = new ListNode(); // 将int的值储存为链表
         pNew->next = nullptr;
         pNew->val = value;
-        if (pHead == nullptr) {
-            pNew = pHead; //如果是空链表相加，那么新链表就是上面将int转化的链表
-        } else {
+        if (pHead != nullptr) {
             ListNode *pCopy = pHead; // 拷贝一份链表，作为循环条件
             while (pCopy->next != nullptr) {
                 pCopy = pCopy->next; // 指针移动
@@ -96,7 +94,7 @@ public:
         return pHead; // 不能返回pCopy，因为它的链表指针移动完了，变成了空
     }
 public:
-    static ListNode* print(ListNode *printNode) {
+    [[maybe_unused]] static ListNode *print(ListNode *printNode) {
         ListNode *p = printNode->next; // ListNode的头为0不要
         while (p != nullptr) {
             cout << p->val << " -> ";
@@ -108,21 +106,20 @@ public:
 };
 
 //int main(int argc, char *argv[]) {
-//    Solution so;
 //    ListNode *ln1 = new ListNode();
 //    ListNode *ln2 = new ListNode();
-//    so.addListNode(ln1,9);
-//    so.addListNode(ln1,9);
-//    so.addListNode(ln1,9);
-//    so.addListNode(ln1,9);
-//    so.addListNode(ln1,9);
-//    so.addListNode(ln1,9);
-//    so.addListNode(ln1,9);
-//    so.addListNode(ln2,9);
-//    so.addListNode(ln2,9);
-//    so.addListNode(ln2,9);
-//    so.addListNode(ln2,9);
-//    so.addTwoNumbers(ln1, ln2);
-//    so.print(so.addTwoNumbers(ln1, ln2));
+//    Solution::addListNode(ln1,9);
+//    Solution::addListNode(ln1,9);
+//    Solution::addListNode(ln1,9);
+//    Solution::addListNode(ln1,9);
+//    Solution::addListNode(ln1,9);
+//    Solution::addListNode(ln1,9);
+//    Solution::addListNode(ln1,9);
+//    Solution::addListNode(ln2,9);
+//    Solution::addListNode(ln2,9);
+//    Solution::addListNode(ln2,9);
+//    Solution::addListNode(ln2,9);
+//    Solution::addTwoNumbers(ln1, ln2);
+//    Solution::print(so.addTwoNumbers(ln1, ln2));
 //    printf("Done.\n");
 //}

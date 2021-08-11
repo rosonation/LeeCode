@@ -36,9 +36,9 @@
 
 using namespace std;
 
-class Solution4 {
+class Solution {
 public:
-    static string longestPalindrome(string s) {
+    [[maybe_unused]] static string longestPalindrome(string s) {
         int n = int(s.size());
         if (n < 2) {
             return s;
@@ -86,7 +86,6 @@ public:
 
 //int main (int argc, char * args[]) {
 //    string s1 = "babad";
-//    Solution4 so;
-//    so.longestPalindrome(s1);
-//    cout << so.longestPalindrome(s1) << endl;
+//    Solution::longestPalindrome(s1);
+//    cout << Solution::longestPalindrome(s1) << endl;
 //}

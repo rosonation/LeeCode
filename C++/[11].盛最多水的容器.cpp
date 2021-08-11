@@ -36,14 +36,13 @@
 //0 <= height[i] <= 3 * 104
 //
 //
-#include <iostream>
 #include <vector>
 
 using namespace std;
 
 class Solution {
 public:
-    static int maxArea(vector<int> &height) {
+    [[maybe_unused]] static int maxArea(vector<int> &height) {
         int l = 0, r = (int) height.size() - 1; // 因为索引是从0开始的，所以指针长度就是size - 1，1到0相当于左移一位，所以右边索引也要左移一位
         int ans = 0;
         while (l < r) {

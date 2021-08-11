@@ -37,7 +37,7 @@ using namespace::std;
 
 class Solution {
 public:
-    static int lengthOfLongestSubstring(string s) {
+    [[maybe_unused]] static int lengthOfLongestSubstring(string s) {
         // 哈希集合，备忘录记录每个字符是否出现过
         unordered_set<char> memo;
         int n = int(s.size());
@@ -63,7 +63,6 @@ public:
 
 //int main (int argc, char * argv[]) {
 //    string s1 = "abcabcbb";
-//    Solution so;
-//    so.lengthOfLongestSubstring(s1);
-//    cout << so.lengthOfLongestSubstring(s1) << endl;
+//    Solution::lengthOfLongestSubstring(s1);
+//    cout << Solution::lengthOfLongestSubstring(s1) << endl;
 //}
