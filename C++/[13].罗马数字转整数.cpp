@@ -85,12 +85,13 @@ public:
                 ans += value;
             }
         }
+        return ans;
     }
 };
 
 
 int main(int argc, char *agrv[]) {
-    string s1 = "V";
+    string s1 = "VI";
     Solution::romanToInt(s1);
     cout << Solution::romanToInt(s1) << endl;
 }
