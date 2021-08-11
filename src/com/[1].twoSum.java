@@ -18,7 +18,7 @@ class Solution1 {
 
     public static void main(String[] args) {
         int[] a = {1, 7, 11, 15};
-        int b = 9;
+        int b = 8;
         Solution1.twoSum(a, b);
         System.out.println(Arrays.toString(Solution1.twoSum(a, b)));
     }
