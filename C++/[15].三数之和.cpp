@@ -35,7 +35,7 @@ using namespace std;
 
 class Solution {
 public:
-    static vector<vector<int>> threeSum(vector<int> &nums) {
+    [[maybe_unused]] vector<vector<int>> threeSum(vector<int> &nums) {
         int n = nums.size();
         sort(nums.begin(), nums.end());
         vector<vector<int>> ans;
