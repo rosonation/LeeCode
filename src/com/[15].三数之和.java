@@ -47,11 +47,11 @@ class Solution15 {
         return ans;
     }
 
-//    public static void main(String[] args) {
-//        int[] a = {-1, 0, 1, 2, -1, -4};
-//        for (int i = 0 ; i < a.length; ++i) {
-//            System.out.println("index is :" + i + ";value is :" + a[i]);
-//        }
-////        Solution15.threeSum(a);
-//    }
+   public static void main(String[] args) {
+       int[] a = {-1, 0, 1, 2, -1, -4};
+       for (int i = 0 ; i < a.length; ++i) {
+           System.out.println("index is :" + i + ";value is :" + a[i]);
+       }
+       Solution15.threeSum(a);
+   }
 }

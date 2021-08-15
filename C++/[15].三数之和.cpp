@@ -75,15 +75,15 @@ public:
     }
 };
 
-//int main(int argc, char *argv[]) {
-//    vector<int> a({-1, 0, 1, 2, -1, -4});
-//    for (const auto& i : a)
-//        cout << i << " ->";
-//    cout << endl;
-//    Solution::threeSum(a);
-//    for (const auto& i : a)  // 声明i为指针，可以对i进行操作，也可以不声明为指针
-//        cout << i << " ->";
-//    cout << endl;
-//    for (int i = 0; i < a.size(); i++)
-//        std::cout << "index:" << i << " ->" << a[i] << ";";
-//}
+int main(int argc, char *argv[]) {
+    vector<int> a({-1, 0, 1, 2, -1, -4});
+    for (const auto &i : a)
+        cout << i << " ->";
+    cout << endl;
+    Solution::threeSum(a);
+    for (const auto &i : a)  // 声明i为指针，可以对i进行操作，也可以不声明为指针
+        cout << i << " ->";
+    cout << endl;
+    for (int i = 0; i < a.size(); i++)
+        std::cout << "index:" << i << " ->" << a[i] << ";";
+}
