@@ -5,10 +5,9 @@
     "version": "0.2.0",
     "compounds": [
         {
-            "name": "CPP+Python+Java",
+            "name": "Python+Java",
             "configurations": [
                 "Python",
-                "C++",
                 "Java"
             ]
         }
@@ -20,18 +19,6 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
-        },
-        {
-            "name": "C++",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/C++/",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb"
         },
         {
             "type": "java",

@@ -12,7 +12,7 @@ class Solution15 {
         // 枚举 a
         for (int first = 0; first < n; ++first) {
             // 需要和上一次枚举的数不相同
-            if (first > 0 && nums[first] == nums[first + 1]) {
+            if (first > 0 && nums[first] == nums[first - 1]) {
                 continue;
             }
             // c 对应的指针初始指向数组的最右端
@@ -21,7 +21,7 @@ class Solution15 {
             // 枚举 b
             for (int second = first + 1; second < n; ++second) {
                 // 需要和上一次枚举的数不同
-                if (second > first + 1 && nums[second] == nums[second + 1]) {
+                if (second > first + 1 && nums[second] == nums[second - 1]) {
                     continue;
                 }
                 // 需要保证 b 的指针在 c 的指针的左边
@@ -55,4 +55,3 @@ class Solution15 {
        Solution15.threeSum(a);
    }
 }
-:
