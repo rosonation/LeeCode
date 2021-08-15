@@ -14,7 +14,7 @@ http://maven.apache.org/POM/4.0.0 ">
         <maven.compiler.target>16</maven.compiler.target>
     </properties>
     <build>
-        <sourceDirectory>${basedir}/src/com</sourceDirectory>
+        <sourceDirectory>${basedir}/src</sourceDirectory>
         <outputDirectory>${basedir}/target/classes</outputDirectory>
         <testOutputDirectory>${basedir}/target/test-classes</testOutputDirectory>
       </build>
