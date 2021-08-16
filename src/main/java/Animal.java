@@ -1,4 +1,4 @@
-package com;
+package java;
 
 public class Animal {
     public Animal() {

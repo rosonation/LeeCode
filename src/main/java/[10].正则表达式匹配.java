@@ -1,4 +1,4 @@
-package com;
+package java;
 
 class Solution10 {
     public static boolean isMatch(String s, String p) {

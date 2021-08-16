@@ -1,4 +1,4 @@
-package com;
+package java;
 
 class Solution11 {
     public static int maxArea(int[] height) {
