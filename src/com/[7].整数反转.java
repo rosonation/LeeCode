@@ -28,7 +28,7 @@
 //
 //-231 <= x <= 231 - 1
 //
-package com;
+
 
 class Solution7 {
     public static int reverse(int x) {

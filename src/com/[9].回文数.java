@@ -1,4 +1,4 @@
-package com;
+
 
 class Solution9 {
     public static boolean isPalindrome(int x) {

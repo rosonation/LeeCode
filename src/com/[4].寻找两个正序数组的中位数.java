@@ -41,7 +41,7 @@
 //
 //
 //
-package com;
+
 
 class Solution4 {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
