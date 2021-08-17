@@ -1,4 +1,5 @@
 {
     "cmake.sourceDirectory": "${workspaceFolder}/C++",
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "C_Cpp.errorSquiggles": "Disabled"
 }
