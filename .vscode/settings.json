@@ -1,5 +1,5 @@
 {
-    "cmake.sourceDirectory": "${workspaceFolder}",
+    "cmake.sourceDirectory": "${workspaceFolder}/LeetCode/C++",
     "java.configuration.updateBuildConfiguration": "automatic",
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {

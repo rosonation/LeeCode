@@ -10,18 +10,14 @@
         }
     ],
     "configurations": [
-        {
-            "name": "Python",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        },
+        
+        
         {
             "type": "java",
             "name": "Java",
             "request": "launch",
             "mainClass": "${file}"
         }
+
     ]
 }
