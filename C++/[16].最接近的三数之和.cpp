@@ -25,9 +25,17 @@ sdf
 // -10^4 <= target <= 10^4
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class Solution {
     public:
-    
-}
+    static int threeSumClosest(vector<int>& nums, int target) {
+        sort(nums.begin(), nums.end());
+        int n = nums.size();
+        int best = 1e7;
+
+        // 根据差值的绝对值来更新答案
+    }
+
+};
