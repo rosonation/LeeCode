@@ -93,8 +93,8 @@ public:
 };
 
 int main(int argc, char *argv[]) {
-    vector<int> b({-1, 2, 1, -4});
-    int i1 = 1;
-    Solution::threeSumClosest(b, i1);
-    cout << Solution::threeSumClosest(b, i1) << endl;
+   vector<int> b({-1, 2, 1, -4});
+   int i1 = 1;
+   Solution::threeSumClosest(b, i1);
+   cout << Solution::threeSumClosest(b, i1) << endl;
 }
