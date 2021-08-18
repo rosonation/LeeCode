@@ -50,8 +50,7 @@ public:
         for (int i = 0; i < n; ++i)
         {
             // 保证和上一次枚举的元素不相等
-            if (i > 0 && nums[i] != nums[i - 1])
-            {
+            if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
             // 使用双指针枚举 b 和 c
@@ -93,8 +92,7 @@ public:
     }
 };
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     vector<int> b({-1, 2, 1, -4});
     int i1 = 1;
     Solution::threeSumClosest(b, i1);

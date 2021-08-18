@@ -1,77 +1,77 @@
 [
 {
   "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
-  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++2a -o CMakeFiles/C++.dir/[1].两数之和.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[1].两数之和.cpp",
+  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[1].两数之和.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[1].两数之和.cpp",
   "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[1].两数之和.cpp"
 },
-{
-  "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
-  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++2a -o CMakeFiles/C++.dir/[2].两数相加.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[2].两数相加.cpp",
-  "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[2].两数相加.cpp"
-},
-{
-  "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
-  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++2a -o CMakeFiles/C++.dir/[3].无重复字符的最长子串.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[3].无重复字符的最长子串.cpp",
-  "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[3].无重复字符的最长子串.cpp"
-},
-{
-  "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
-  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++2a -o CMakeFiles/C++.dir/[4].寻找两个正序数组的中位数.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[4].寻找两个正序数组的中位数.cpp",
-  "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[4].寻找两个正序数组的中位数.cpp"
-},
-{
-  "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
-  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++2a -o CMakeFiles/C++.dir/[6].Z字形变换.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[6].Z字形变换.cpp",
-  "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[6].Z字形变换.cpp"
-},
-{
-  "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
-  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++2a -o CMakeFiles/C++.dir/[5].最长回文子串.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[5].最长回文子串.cpp",
-  "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[5].最长回文子串.cpp"
-},
-{
-  "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
-  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++2a -o CMakeFiles/C++.dir/[7].整数反转.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[7].整数反转.cpp",
-  "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[7].整数反转.cpp"
-},
-{
-  "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
-  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++2a -o CMakeFiles/C++.dir/[8].字符串转换整数.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[8].字符串转换整数.cpp",
-  "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[8].字符串转换整数.cpp"
-},
-{
-  "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
-  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++2a -o CMakeFiles/C++.dir/[9].回文数.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[9].回文数.cpp",
-  "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[9].回文数.cpp"
-},
-{
-  "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
-  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++2a -o CMakeFiles/C++.dir/[10].正则表达式匹配.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[10].正则表达式匹配.cpp",
-  "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[10].正则表达式匹配.cpp"
-},
-{
-  "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
-  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++2a -o CMakeFiles/C++.dir/[11].盛最多水的容器.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[11].盛最多水的容器.cpp",
-  "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[11].盛最多水的容器.cpp"
-},
-{
-  "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
-  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++2a -o CMakeFiles/C++.dir/[12].整数转罗马数字.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[12].整数转罗马数字.cpp",
-  "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[12].整数转罗马数字.cpp"
-},
-{
-  "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
-  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++2a -o CMakeFiles/C++.dir/[13].罗马数字转整数.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[13].罗马数字转整数.cpp",
-  "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[13].罗马数字转整数.cpp"
-},
-{
-  "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
-  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++2a -o CMakeFiles/C++.dir/[14].最长公共前缀.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[14].最长公共前缀.cpp",
-  "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[14].最长公共前缀.cpp"
-},
-{
-  "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
-  "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu++2a -o CMakeFiles/C++.dir/[15].三数之和.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[15].三数之和.cpp",
-  "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[15].三数之和.cpp"
-}
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[2].两数相加.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[2].两数相加.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[2].两数相加.cpp"
+  },
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[3].无重复字符的最长子串.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[3].无重复字符的最长子串.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[3].无重复字符的最长子串.cpp"
+  },
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[4].寻找两个正序数组的中位数.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[4].寻找两个正序数组的中位数.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[4].寻找两个正序数组的中位数.cpp"
+  },
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[6].Z字形变换.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[6].Z字形变换.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[6].Z字形变换.cpp"
+  },
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[5].最长回文子串.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[5].最长回文子串.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[5].最长回文子串.cpp"
+  },
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[7].整数反转.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[7].整数反转.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[7].整数反转.cpp"
+  },
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[8].字符串转换整数.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[8].字符串转换整数.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[8].字符串转换整数.cpp"
+  },
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[9].回文数.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[9].回文数.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[9].回文数.cpp"
+  },
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[10].正则表达式匹配.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[10].正则表达式匹配.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[10].正则表达式匹配.cpp"
+  },
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[11].盛最多水的容器.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[11].盛最多水的容器.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[11].盛最多水的容器.cpp"
+  },
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[12].整数转罗马数字.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[12].整数转罗马数字.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[12].整数转罗马数字.cpp"
+  },
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[13].罗马数字转整数.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[13].罗马数字转整数.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[13].罗马数字转整数.cpp"
+  },
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[14].最长公共前缀.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[14].最长公共前缀.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[14].最长公共前缀.cpp"
+  },
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[15].三数之和.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[15].三数之和.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[15].三数之和.cpp"
+  }
 ]
