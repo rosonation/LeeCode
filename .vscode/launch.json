@@ -11,18 +11,6 @@
     ],
     "configurations": [
         {
-            "name": "CPP",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/C++",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb"
-        },
-        {
             "name": "Python",
             "type": "python",
             "request": "launch",
