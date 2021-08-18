@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "compounds": [
         {
-            "name": "Python+Java",
+            "name": "Python+Java+CPP",
             "configurations": [
                 "Python",
                 "Java"
@@ -10,6 +10,18 @@
         }
     ],
     "configurations": [
+        {
+            "name": "CPP",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/C++",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
         {
             "name": "Python",
             "type": "python",
