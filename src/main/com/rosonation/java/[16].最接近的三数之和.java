@@ -1,6 +1,6 @@
 //
 // Create by TonyLaw at 2021-08-20 00:23:15
-// 
+//
 
 // [16].最接近的三数之和（难度：中等）
 //
@@ -21,7 +21,7 @@
 // -10^3 <= nums[i] <= 10^3
 // -10^4 <= target <= 10^4
 
-// 
+//
 package com.rosonation.java;
 
 import java.util.Arrays;
@@ -36,7 +36,7 @@ class Solution16 {
         for (int i = 0; i < n; ++i) {
             // 保证和上一次枚举的元素不相等
             if (i > 0 && nums[i] == nums[i - 1]) {
-                continue;   
+                continue;
             }
             // 使用双指针枚举 b 和 c
             int j = i + 1, k = n - 1;
@@ -44,7 +44,7 @@ class Solution16 {
                 int sum = nums[i] + nums[j] + nums[k];
                 // 如果三数之和等于 target ，直接返回答案
                 if (sum == target) {
-                    return target;      
+                    return target;
                 }
                 // 根据差值的绝对值来更新答案
                 if (Math.abs(sum - target) < Math.abs(best - target)) {
@@ -55,7 +55,7 @@ class Solution16 {
                     int k0 = k - 1;  // 保存 k 的原始值，后面还要更新 k 的值，类似中间变量
                     // 移动到下一个不相等的元素
                     while (j < k0 && nums[k0] == nums[k]) {
-                        --k0;   
+                        --k0;
                     }
                     k = k0;
                 } else {
@@ -73,9 +73,9 @@ class Solution16 {
     }
 
     public static void main(String[] args) {
-        int i1[] = {-1, 2, 1, -4}; 
+        int i1[] = {-1, 2, 1, -4};
         int target = 1;
         Solution16.threeSumClosest(i1, target);
         System.out.print(Solution16.threeSumClosest(i1, target));
-    }
+   }
 }
