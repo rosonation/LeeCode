@@ -1,4 +1,4 @@
-package java;
+package com.rosonation.java;
 
 class Solution10 {
     public static boolean isMatch(String s, String p) {

@@ -1,4 +1,4 @@
-package java;
+package com.rosonation.java;
 
 class Solution5 {
     public static String longestPalindrome(String s) {

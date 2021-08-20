@@ -1,4 +1,4 @@
-package java;
+package com.rosonation.java;
 
 class Solution11 {
     public static int maxArea(int[] height) {

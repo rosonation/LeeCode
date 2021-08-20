@@ -1,4 +1,4 @@
-package java;
+package com.rosonation.java;
 
 public class Animal {
     public Animal() {

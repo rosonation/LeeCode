@@ -1,4 +1,4 @@
-package java;
+package com.rosonation.java;
 
 class Solution9 {
     public static boolean isPalindrome(int x) {

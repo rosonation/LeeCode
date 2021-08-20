@@ -1,4 +1,4 @@
-package java;
+package com.rosonation.java;
 
 import java.util.HashMap;
 import java.util.Map;

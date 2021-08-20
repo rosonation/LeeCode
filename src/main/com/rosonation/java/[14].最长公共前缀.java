@@ -1,4 +1,4 @@
-package java;
+package com.rosonation.java;
 
 class Solution14 {
     public static String longestCommonPrefix(String[] strs) {
