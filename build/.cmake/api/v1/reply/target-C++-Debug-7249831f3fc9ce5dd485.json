@@ -1,23 +1,23 @@
 {
-	"artifacts" : 
+	"artifacts" :
 	[
 		{
 			"path" : "C++"
 		}
 	],
 	"backtrace" : 1,
-	"backtraceGraph" : 
+	"backtraceGraph" :
 	{
-		"commands" : 
+		"commands" :
 		[
 			"add_executable",
 			"include_directories"
 		],
-		"files" : 
+		"files" :
 		[
 			"CMakeLists.txt"
 		],
-		"nodes" : 
+		"nodes" :
 		[
 			{
 				"file" : 0
@@ -36,10 +36,10 @@
 			}
 		]
 	},
-	"compileGroups" : 
+	"compileGroups" :
 	[
 		{
-			"compileCommandFragments" : 
+			"compileCommandFragments" :
 			[
 				{
 					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk"
@@ -48,7 +48,7 @@
 					"fragment" : "-std=gnu++2a"
 				}
 			],
-			"includes" : 
+			"includes" :
 			[
 				{
 					"backtrace" : 2,
@@ -56,15 +56,15 @@
 				}
 			],
 			"language" : "CXX",
-			"languageStandard" : 
+			"languageStandard" :
 			{
-				"backtraces" : 
+				"backtraces" :
 				[
 					1
 				],
 				"standard" : "20"
 			},
-			"sourceIndexes" : 
+			"sourceIndexes" :
 			[
 				0,
 				1,
@@ -85,9 +85,9 @@
 		}
 	],
 	"id" : "C++::@6890427a1f51a3e7e1df",
-	"link" : 
+	"link" :
 	{
-		"commandFragments" : 
+		"commandFragments" :
 		[
 			{
 				"fragment" : "-g",
@@ -102,12 +102,12 @@
 	},
 	"name" : "C++",
 	"nameOnDisk" : "C++",
-	"paths" : 
+	"paths" :
 	{
 		"build" : ".",
 		"source" : "."
 	},
-	"sourceGroups" : 
+	"sourceGroups" :
 	[
 		{
 			"name" : "Source Files",
@@ -131,7 +131,7 @@
 			]
 		}
 	],
-	"sources" : 
+	"sources" :
 	[
 		{
 			"backtrace" : 1,

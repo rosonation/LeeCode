@@ -14,3 +14,5 @@ CMakeFiles/
 cmake-build-debug-gcc/
 cmake-build-default/
 cmake-build-default-coverage/
+#----------VScode------------------------
+.vscode/

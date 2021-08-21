@@ -44,7 +44,7 @@ public:
             {'6', "mno"},
             {'7', "pqrs"},
             {'8', "tuv"},
-            {'9', "wxyz"},
+            {'9', "wxyz"}
         };
         string combination;
         backtrack(combinations, phoneMap, digits, 0, combination);
@@ -59,7 +59,7 @@ public:
             for(auto &letter : letters)
             {
                 combination.push_back(letter);
-                backtrack(combinations, phoneMap, digits, digits_index, combination);
+                backtrack(combinations, phoneMap, digits, digits_index + 1, combination);
                 combination.pop_back();
             }
         }
@@ -74,6 +74,6 @@ int main(int argc, char *argv[])
     {
         cout << i << " ->";
     }
-    cout << "hello";
+    cout << endl;
     return 0;
 }
