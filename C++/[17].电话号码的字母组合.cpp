@@ -21,20 +21,59 @@
 
 =========================================*/
 #include <iostream>
+#include <vector>
+#include <unordered_map>
 
 using namespace std;
 
-class Solution {
+class Solution
+{
 public:
-    static vector<helloWorld> letterCombinations(helloWorld digits) {
-        
-        return 0;
+    static vector<string> letterCombinations(string digits)
+    {
+        vector<string> combinations;
+        if (digits.empty())
+        {
+            return combinations;
+        }
+        unordered_map<char, string> phoneMap{
+            {'2', "abc"},
+            {'3', "def"},
+            {'4', "ghi"},
+            {'5', "jkl"},
+            {'6', "mno"},
+            {'7', "pqrs"},
+            {'8', "tuv"},
+            {'9', "wxyz"},
+        };
+        string combination;
+        backtrack(combinations, phoneMap, digits, 0, combination);
+        return combinations;
+    }
+    static void backtrack(vector<string>& combinations, const unordered_map<char, string>& phoneMap, const string& digits, int digits_index, string& combination){
+        if (digits_index == digits.length()) {
+            combinations.push_back(combination);
+        } else {
+            char digit = digits[digits_index];
+            const string& letters = phoneMap.at(digit);
+            for(auto &letter : letters)
+            {
+                combination.push_back(letter);
+                backtrack(combinations, phoneMap, digits, digits_index, combination);
+                combination.pop_back();
+            }
+        }
+    }
 };
 
-int main(int argc, char *argv[]) {
-    variable type variable name= variable value;
-    variable type variable name= variable value;
-    Solution::letterCombinations(variable name, variable name);
-    cout << Solution::letterCombinations(variable name, variable name) << endl;
+int main(int argc, char *argv[])
+{
+    string s1 = "23";
+    Solution::letterCombinations(s1);
+    for (auto &i : Solution::letterCombinations(s1))
+    {
+        cout << i << " ->";
+    }
+    cout << "hello";
     return 0;
 }

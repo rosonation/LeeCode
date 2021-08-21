@@ -73,5 +73,15 @@
     "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
     "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[15].三数之和.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[15].三数之和.cpp",
     "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[15].三数之和.cpp"
+  },
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[15].三数之和.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[15].三数之和.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[16].最接近的三数之和.cpp"
+  },
+  {
+    "directory": "/Users/tony/Documents/Workspace/LeetCode/build",
+    "command": "/usr/bin/clang++ -I/Users/tony/Documents/Workspace/LeetCode/C++/. -g -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=g++20 -o CMakeFiles/C++.dir/[15].三数之和.cpp.o -c /Users/tony/Documents/Workspace/LeetCode/C++/[15].三数之和.cpp",
+    "file": "/Users/tony/Documents/Workspace/LeetCode/C++/[17].电话号码的字母组合.cpp"
   }
 ]
