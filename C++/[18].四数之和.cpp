@@ -91,14 +91,21 @@ public:
 };
 
 int main(int argc, char *argv[]) {
-    vector<int> a({1, 0, -1, 0, -2, -1});
+    vector<int> a({1, 0, -1, 0, -2, 2});
     int i2 = 0;
-    Solution::fourSum(a, i2);
-    for (auto &i : Solution::fourSum(a, i2)) {
-        for (auto &j : i) {
-            cout << j << " ->";
-        }
+    vector<vector<int>> points = Solution::fourSum(a, i2); 
+    for (vector<vector<int>>::iterator it = points.begin(); it < points.end(); ++it) {
+	    for (vector<int>::iterator itit = (*it).begin(); itit < (*it).end(); ++itit) {
+	    	cout << *itit << " ->" << ends;
+	    }
+        cout << endl;	
     }
-    cout << endl;
+    // 打印二元list两种方法
+    // for (int i = 0; i < points.size(); ++i) {
+    //     for (int j = 0; j < points[0].size(); ++j) {
+    //         cout << points[i][j] << " ->" << ends;
+    //     }
+    //     cout << endl;
+    // }
     return 0;
 }
