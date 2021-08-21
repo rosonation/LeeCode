@@ -1,5 +1,3 @@
-<h1 align="center"><img src="https://placekitten.com/300/150"/>allowed_elements</h1>
-
 ## use six languages to solve the algorithm subject for LeeCode ##
 
 - Python

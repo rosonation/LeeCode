@@ -50,6 +50,6 @@ class Solution {
 }
 
 int main() {
-    int[] a = {}
-    int b = 0
+    int[] a = {1,-2,-5,-4,-3,3,3,5}
+    int b = -11
 }
