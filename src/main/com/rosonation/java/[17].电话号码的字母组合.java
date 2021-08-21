@@ -57,21 +57,21 @@ class Solution17 {
             put('8', "tuv");
             put('9', "wxyz");
         }};
-        backtrack(combinations, phoneMap, digits, 0, new StringBuilder());
+        backtrack(combinations, phoneMap, digits, 0, new StringBuilder());  // 递归digits的索引 digits_index,索引都是默认从 0 开始的
         return combinations;
     }
-        public static void backtrack(List<String> combinations, Map<Character, String> phoneMap, String digits, int index, StringBuilder combination) {
-            if (index == digits.length()) {
+        public static void backtrack(List<String> combinations, Map<Character, String> phoneMap, String digits, int digits_index, StringBuilder combination) {
+            if (digits_index == digits.length()) {
                 combinations.add(combination.toString());
             }
             else {
-                char digit = digits.charAt(index);
+                char digit = digits.charAt(digits_index);
                 String letters = phoneMap.get(digit);
                 int lettersCount = letters.length();
-                for (int i = 0; i < lettersCount; ++i) {
-                    combination.append(letters.charAt(i));
-                    backtrack(combinations, phoneMap, digits, index + 1, combination);
-                    combination.deleteCharAt(index);
+                for (int letters_index = 0; letters_index < lettersCount; ++letters_index) {
+                    combination.append(letters.charAt(letters_index));
+                    backtrack(combinations, phoneMap, digits, digits_index + 1, combination); // digits_index + 1,遍历下一个索引，也就是指针移动
+                    combination.deleteCharAt(digits_index);
                 }
             }
         }
