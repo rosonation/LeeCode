@@ -49,3 +49,8 @@ class Solution {
     }
 }
 
+let a = [2,2,2,2,2]
+let b: Int = 8
+print("Hello World!")
+var c: [[Int]] = Solution().fourSum(a, b) 
+print(c)
