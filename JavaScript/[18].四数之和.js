@@ -2,7 +2,8 @@
 * @FileName: [18].四数之和.js
 * @Description: 计算和 target 相等的不重复四元数组
 * @Author: TonyLaw
-* @Date: 2021-08-21 21:41:53 Saturday
+* @Date: 2021-08-23 01:26:10 Monday
+* @Copyright:  © 2021 TonyLaw. All rights reserved.
 =========================================*/
 /*=======================================
                 (题目难度：中等)
@@ -31,7 +32,7 @@ nums[a] + nums[b] + nums[c] + nums[d] == target
 -109 <= nums[i] <= 109
 -109 <= target <= 109
 =========================================*/
-var fourSum = function (nums, target) {
+function fourSum(nums, target) {
   const quadruplets = []
   if (nums.length < 4) {
     return quadruplets
