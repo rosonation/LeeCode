@@ -54,11 +54,11 @@ public:
             { // 如果元素相等就下一个
                 continue;
             }
-            if (nums[i] + nums[i + 1]  > target - nums[i + 2] - nums[i + 3])
+            if (nums[i] + nums[i + 1] > target - nums[i + 2] - nums[i + 3])
             {
                 break; // 已经从小到大排了序的四个数字之和都大于 target ，说明没有符合要求的四元数组
             }
-            if (nums[i] + nums[length - 3]  < target - nums[length - 2] - nums[length - 1])
+            if (nums[i] + nums[length - 3] < target - nums[length - 2] - nums[length - 1])
             {             // 从小到大排序，如果第一个和最后面三个数相加都比 target 小，说明没有符合要求的四元数组
                 continue; // 继续加大第一位数字，看看能否找到
             }
@@ -109,25 +109,25 @@ public:
     }
 };
 
-// int main(int argc, char *argv[])
-// {
-//     vector<int> a({1, -2, -5, -4, -3, 3, 3, 5});
-//     int i2 = -11;
-//     vector<vector<int>> points = Solution::fourSum(a, i2);
-//     for (vector<vector<int>>::iterator it = points.begin(); it < points.end(); ++it)
-//     {
-//         for (vector<int>::iterator itit = (*it).begin(); itit < (*it).end(); ++itit)
-//         {
-//             cout << *itit << " ->" << ends;
-//         }
-//         cout << endl;
-//     }
-//     // 打印二元list两种方法
-//     // for (int i = 0; i < points.size(); ++i) {
-//     //     for (int j = 0; j < points[0].size(); ++j) {
-//     //         cout << points[i][j] << " ->" << ends;
-//     //     }
-//     //     cout << endl;
-//     // }
-//     return 0;
-// }
+int main(int argc, char *argv[])
+{
+    vector<int> a({1, -2, -5, -4, -3, 3, 3, 5});
+    int i2 = -11;
+    vector<vector<int>> points = Solution::fourSum(a, i2);
+    for (vector<vector<int>>::iterator it = points.begin(); it < points.end(); ++it)
+    {
+        for (vector<int>::iterator itit = (*it).begin(); itit < (*it).end(); ++itit)
+        {
+            cout << *itit << " ->" << ends;
+        }
+        cout << endl;
+    }
+    // 打印二元list两种方法
+    // for (int i = 0; i < points.size(); ++i) {
+    //     for (int j = 0; j < points[0].size(); ++j) {
+    //         cout << points[i][j] << " ->" << ends;
+    //     }
+    //     cout << endl;
+    // }
+    return 0;
+}
