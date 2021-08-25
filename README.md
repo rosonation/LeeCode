@@ -1,7 +1,8 @@
-## use six languages to solve the algorithm subject for LeeCode ##
+## use seven languages to solve the algorithm subject for LeeCode ##
 
 - Python
 - Golang
+- Rust
 - C++
 - Java
 - JavaScript
