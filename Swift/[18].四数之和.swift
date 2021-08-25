@@ -56,6 +56,6 @@ class Solution {
 }
 
 let a = [-5,-2,-4,-2,-5,-4,0,0]
-let b: Int = -13
+let b = -13
 var c: [[Int]] = Solution().fourSum(a, b)
 print(c)

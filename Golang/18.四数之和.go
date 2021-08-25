@@ -9,7 +9,7 @@ import (
 * @Description: 计算和 target 相等的不重复四元数组
 * @Author: TonyLaw
 * @Date: 2021-08-23 01:25:41 Monday
-* @Copyright:  © 2021 TonyLaw. All rights reserved.
+* @Copyright:  © 2021 TonyLaw. All Rights reserved.
 =========================================*/
 func fourSum(nums []int, target int) (quadruplets [][]int) {
 	sort.Ints(nums)
