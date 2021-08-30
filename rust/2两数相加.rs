@@ -83,7 +83,7 @@ impl Solution {
 }
 
 fn main() {
-  let l1 = ListNode{2, 4, 3};
+  let l1 = Option<Box<ListNode{2, 4, 3}>>;
   let l2 = ListNode{5, 6, 3};
   let c = Solution::add_two_numbers(l1, l2);
   println!(c);  
