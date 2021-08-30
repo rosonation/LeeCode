@@ -78,7 +78,7 @@ class Solution {
     }
 }
 
-var l1 = ListNode({2; 4; 3})
-var l2 = ListNode({5; 6; 4})
-var c: ListNode = Solution().addTwoNumbers(l1, l2)
+var l1 = ListNode(2,ListNode(3, ListNode(4)))
+var l2 = ListNode(5, ListNode(6, ListNode(4)))
+var c: ListNode? = Solution().addTwoNumbers(l1, l2)
 print(c)
