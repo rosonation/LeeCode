@@ -59,7 +59,8 @@ class Solution {
         let result: ListNode = ListNode(0)
         // 当前节点
         var currentNode: ListNode = result 
-
+        // message for print ListNode value
+        var message: String = ""
         // 存在未遍历的表链或者进位值 carry 大于0 的场合，继续遍历
         while listNode1 != nil || listNode2 != nil || carry > 0 {
             // 求和
@@ -73,12 +74,14 @@ class Solution {
             currentNode.next = ListNode(sum % 10)
             // 更新当前节点
             currentNode = currentNode.next!
+            message = message + String(currentNode.val) + " ->"
         }
+        print(message)
         return result.next
     }
 }
 
-var l1 = ListNode(2,ListNode(3, ListNode(4)))
+var l1 = ListNode(2,ListNode(4, ListNode(3)))
 var l2 = ListNode(5, ListNode(6, ListNode(4)))
-var c: ListNode? = Solution().addTwoNumbers(l1, l2)
+var c: ListNode = Solution().addTwoNumbers(l1, l2)!
 print(c)
