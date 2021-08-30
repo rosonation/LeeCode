@@ -87,5 +87,4 @@ fn main() {
   let l2 = ListNode{5, 6, 3};
   let c = Solution::add_two_numbers(l1, l2);
   println!(c);  
-  hello!!!!!!!!!!!!!!!
 }
