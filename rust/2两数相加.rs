@@ -40,19 +40,20 @@
 // Definition for singly-linked list.
 #[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {
-  pub val: i32,
-  pub next: Option<Box<ListNode>>
+    pub val: i32,
+    pub next: Option<Box<ListNode>>,
 }
 
 impl ListNode {
-  #[inline]
-  fn new(val: i32) -> Self {
-    ListNode {
-      next: None,
-      val
+    #[inline]
+    fn new(val: i32) -> Self {
+        ListNode { next: None, val }
     }
-  }
 }
+
+struct Solution;
+
+
 impl Solution {
     pub fn add_two_numbers(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let mut result = None;  // mut 可变的
@@ -61,7 +62,7 @@ impl Solution {
         loop {
             t = match t {
                 (None, None, _, 0) => break,  // l1 and l2 is None and carry is 0 than break
-                (None, Nome, _, carry) => (None, None, carry, 0),
+                (None, None, _, carry) => (None, None, carry, 0),
                 (Some(list), None, _, carry) | (None, Some(list), _, carry) if list.val + carry >= 10 => {
                     (list.next, None, list.val + carry - 10, 1)
                 }
@@ -69,22 +70,30 @@ impl Solution {
                     (list.next, None, list.val + carry, 0)
                 }
                 (Some(l1), Some(l2), _, carry) if l1.val + l2.val + carry >= 10 => {
-                    (l1.next, l2.next, l1.val + carry - 10, 1)
+                    (l1.next, l2.next, l1.val + l2.val +carry - 10, 1)
                 }
                 (Some(l1), Some(l2), _, carry) => {
-                    (l1.next, l2.next, l1.val + carry, 0)
+                    (l1.next, l2.next, l1.val + l2.val +carry, 0)
                 }
-            }
+            };
             *tail = Some(Box::new(ListNode::new(t.2)));
             tail = &mut tail.as_mut().unwrap().next;
-        };
+        }
         result
     }
 }
 
-fn main() {
-  let l1 = ListNode{2, 4, 3};
-  let l2 = ListNode{5, 6, 3};
-  let c = Solution::add_two_numbers(l1, l2);
-  println!(c);  
-}
+// fn main() {
+//   let l1 = ListNode::new(3);
+//   let mut l2 = ListNode::new(4);
+//   let mut l3 = ListNode::new(2);
+//   l2.next = Some(Box::new(l1));
+//   l3.next = Some(Box::new(l2));
+//   let l4 = ListNode::new(4);
+//   let mut l5 = ListNode::new(6);
+//   let mut l6 = ListNode::new(5);
+//   l5.next = Some(Box::new(l4));
+//   l6.next = Some(Box::new(l5));
+//   let result = Solution::add_two_numbers(Some(Box::new(l3)), Some(Box::new(l6)));
+//   println!("{:?}", result);  
+// }

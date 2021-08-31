@@ -61,6 +61,6 @@ impl Solution {
 fn main() {
     let l1 = vec![2, 3, 4];
     let i1 = 6;
-    let c = Solution::two_sum(l1, i1);
-    println!("{:?}", c);
+    let result = Solution::two_sum(l1, i1);
+    println!("{:?}", result);
 }
