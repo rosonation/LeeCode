@@ -16,6 +16,7 @@ cmake-build-default/
 cmake-build-default-coverage/
 #----------VScode------------------------
 .vscode/
+Cargo.toml
 #----------Golang------------------------
 pkg/
 bin/

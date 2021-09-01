@@ -42,6 +42,6 @@ impl Solution {
         nums.sort_unstable();
         for i in 0..len - 3 {
             if nums[i]+nums[i+1]
-        }
+       }
     }
 }
