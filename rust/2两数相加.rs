@@ -79,21 +79,21 @@ impl Solution {
             *tail = Some(Box::new(ListNode::new(t.2)));
             tail = &mut tail.as_mut().unwrap().next;
         }
-        result
+        return result
     }
 }
 
-// fn main() {
-//   let l1 = ListNode::new(3);
-//   let mut l2 = ListNode::new(4);
-//   let mut l3 = ListNode::new(2);
-//   l2.next = Some(Box::new(l1));
-//   l3.next = Some(Box::new(l2));
-//   let l4 = ListNode::new(4);
-//   let mut l5 = ListNode::new(6);
-//   let mut l6 = ListNode::new(5);
-//   l5.next = Some(Box::new(l4));
-//   l6.next = Some(Box::new(l5));
-//   let result = Solution::add_two_numbers(Some(Box::new(l3)), Some(Box::new(l6)));
-//   println!("{:?}", result);  
-// }
+fn main() {
+  let l1 = ListNode::new(3);
+  let mut l2 = ListNode::new(4);
+  let mut l3 = ListNode::new(2);
+  l2.next = Some(Box::new(l1));
+  l3.next = Some(Box::new(l2));
+  let l4 = ListNode::new(4);
+  let mut l5 = ListNode::new(6);
+  let mut l6 = ListNode::new(5);
+  l5.next = Some(Box::new(l4));
+  l6.next = Some(Box::new(l5));
+  let result = Solution::add_two_numbers(Some(Box::new(l3)), Some(Box::new(l6)));
+  println!("{:?}", result);  
+}

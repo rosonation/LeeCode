@@ -41,7 +41,41 @@ impl Solution {
         let mut ret = vec![];
         nums.sort_unstable();
         for i in 0..len - 3 {
-            if nums[i]+nums[i+1]
-       }
+            if nums[i] + nums[i + 1] + nums[i + 2] + nums[i + 3] > target { break; } //剪枝
+            if nums[i] + nums[len - 3] + nums[len - 2] + nums[len - 1] < target { continue; } // 剪枝
+            
+            if i > 0 && nums[i] == nums[i - 1] { continue; } // 剪枝
+            for j in i+1..len-2 {
+                if nums[i] + nums[j] + nums[j + 1] + nums[j + 2] > target { break; } // 剪枝
+                if nums[i] + nums[j] + nums[len - 2] + nums[len - 1] < target { continue; } // 剪枝
+
+                if j > i + 1 && nums[j] == nums[j - 1] {continue; }  // 剪枝
+                let (mut k, mut q) = (j + 1, len - 1);                
+                loop {
+                    if k >= q { break; }
+                    if nums[i] + nums[j] + nums[k] + nums[k + 1] > target { break; } // 剪枝
+                    if nums[i] + nums[j] + nums[q - 1] + nums[q] < target { break; } // 剪枝
+                    if k > j + 1 && nums[k] == nums[k - 1] { k += 1; continue; } // 剪枝
+                    if q > len - 1 && nums[q] == nums[k + 1] { q -= 1; continue; } // 剪枝
+                    let sum = nums[i] + nums[j] + nums[k] + nums[q];
+                    if sum == target {
+                        ret.push(vec![nums[i], nums[j], nums[k], nums[q]]);
+                        k += 1;
+                    } else if sum > target { 
+                        q -= 1;
+                    } else {
+                        k += 1;
+                    }
+                }
+            }
+        }                 
+        return ret
     }
+}
+
+fn main() {
+    let l1 = vec![1, 0, -1, 0, -2, 2];
+    let n1 = 0;
+    let result = Solution::four_sum(l1, n1);
+    println!("{:?}", result);
 }

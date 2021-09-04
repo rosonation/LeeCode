@@ -1,3 +1,0 @@
-/Users/tony/Documents/Project/LeeCode/C++/CMakeFiles/rebuild_cache.dir
-/Users/tony/Documents/Project/LeeCode/C++/CMakeFiles/edit_cache.dir
-/Users/tony/Documents/Project/LeeCode/C++/CMakeFiles/LeeCode.dir
