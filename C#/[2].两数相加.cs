@@ -78,7 +78,7 @@ namespace LeetCode
             ListNode last = null;
             foreach (var val in vals)
             {
-                if (res == null) // 首次赋值就是null
+                if (res == null) // 没有定义的变量一开始就是null
                 {
                     res = new ListNode(val);
                     last = res;
