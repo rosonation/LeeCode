@@ -60,11 +60,11 @@ namespace LeetCode
             while (l1 != null || l2 != null || val != 0)
             {
                 val = val + (l1 == null ? 0 : l1.val) + (l2 == null ? 0 : l2.val);
-                lastnode.next = new ListNode(val % 10); // 个位数
+                lastnode.next = new ListNode(val % 10); // 看相加的两个ListNode之和 与 10 取模，两数之和在 0-9 的就保留原来的数字，10-18 就保留个位数字
                 lastnode = lastnode.next; // 向后移动指针
-                val = val / 10; // 位数减一，比如十位数变成个位数
-                l1 = l1 == null ? null : l1.next; // 如果l1是 null，则val为 0， 否则为l1 的 val
-                l2 = l2 == null ? null : l2.next;
+                val = val / 10; // 计算两数之和的进位多少（0和1），比如0-9 为0， 10-18 为 1
+                l1 = l1 == null ? null : l1.next; // 如果l1是 null，那l1 就结束了，如果不为null就继续遍历 ListNode
+                l2 = l2 == null ? null : l2.next; // 如果l2 是 null， 那l2 就结束了， 如果不为 null 就继续遍历 ListNode
             }
             return prenode.next; // 因为prenode是空节点，所以空姐点的 next才是真正的 ListNode 链表
         }
