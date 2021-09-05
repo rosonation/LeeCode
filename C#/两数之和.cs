@@ -39,25 +39,36 @@
 
 =========================================*/
 using System;
+using System.Collections.Generic;
 
-namespace ScriptCs
+namespace LeetCode
 {
     public class Program
     {
-        static void Main(System.String[] args)
+        static void Main(String[] args)
         {
-            // int[] i1 = { 2, 7, 11, 15 };
-            // int i2 = 0;
-            System.Console.Write("hello world!");
-            // var result = Solution::four_sum(i1, i2);
-            // Console.WriteLine("Solution::four_sum(i1, i2)");
+            int[] i1 = { 2, 7, 11, 15 };
+            int i2 = 9;
+            var result = Solution.TwoSum(i1, i2);
+            Console.Write("[");
+            for (int i = 0; i < result.Length; ++i){
+                
+                if (i == result.Length - 1)
+                {
+                    Console.Write(result[i]);
+                } else {
+                    Console.Write(result[i] + ", ");
+                }
+            }
+            Console.WriteLine("]");
         }
     }
 }
 
+
 public class Solution
 {
-    public int[] TwoSum(int[] nums, int target)
+    public static int[] TwoSum(int[] nums, int target)
     {
         Dictionary<int, int> kvs = new Dictionary<int, int>();
         for (int i = 0; i < nums.Length; ++i)
@@ -65,7 +76,8 @@ public class Solution
             int complement = target - nums[i];
             if (kvs.ContainsKey(complement) && kvs[complement] != i)
             {
-                return new int[] { i, kvs[complement] };
+                var ret = new int[] { i, kvs[complement] };
+                return ret;
             }
             // 需要对重复值进行判断，若结果包含了重复值，则已经被上面给return了；所以此处对于重复值已经忽略
             if (!kvs.ContainsKey(nums[i]))
