@@ -38,6 +38,17 @@
 题目数据保证列表表示的数字不含前导零
 
 =========================================*/
+// Definition for singly-linked list.
+function ListNode(val, next) {
+  this.val = (val === undefined ? 0 : val);
+  this.next = (next === undefined ? null : next);
+}
+
+/**
+* @param {ListNode} l1
+* @param {ListNode} l2
+* @return {ListNode}
+*/
 
 var addTwoNumbers = function (l1, l2) {
   let head = null, tail = null;
@@ -52,5 +63,29 @@ var addTwoNumbers = function (l1, l2) {
       tail.next = new ListNode(sum % 10);
       tail = tail.next;
     }
+    carry = Math.floor(sum / 10);
+    if (l1) {
+      l1 = l1.next;
+    }
+    if (l2) {
+      l2 = l2.next;
+    }
   }
-}
+  if (carry > 0) {
+    tail.next = new ListNode(carry);
+  }
+  return head;
+};
+
+let l1 = new ListNode(3);
+let l2 = new ListNode(4);
+let l3 = new ListNode(2);
+l2.next = l1;
+l3.next = l2;
+let l4 = new ListNode(4);
+let l5 = new ListNode(6);
+let l6 = new ListNode(5);
+l5.next = l4;
+l6.next = l5;
+let result = addTwoNumbers(l3, l6);
+console.log(result);
