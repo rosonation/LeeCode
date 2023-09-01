@@ -52,7 +52,7 @@ class Solution {
             }
         }
         return arr
-    }
+   }
 }
 
 let a = [-5,-2,-4,-2,-5,-4,0,0]

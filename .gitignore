@@ -24,3 +24,4 @@ bin/
 build/
 #----------JavaScript-------------------- 
 node_modules/
+.fake

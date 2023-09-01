@@ -72,7 +72,6 @@ class Solution2 {
         Solution2.addListNode(l1, 4);
         Solution2.addListNode(l1, 3);
         ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
-        listPrint(l1);
         Solution2.addTwoNumbers(l1, l2);
         listPrint(Solution2.addTwoNumbers(l1, l2));
     }

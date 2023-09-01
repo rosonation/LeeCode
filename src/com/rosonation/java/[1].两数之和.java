@@ -11,7 +11,7 @@ class Solution1 {
             if (hashtable.containsKey(target - numbs[i])) {
                 return new int[]{hashtable.get(target - numbs[i]), i};
             }
-            hashtable.put(numbs[i], i);
+            hashtable.put(numbs[i],i);
         }
         return new int[0];
     }
